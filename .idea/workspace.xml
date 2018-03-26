@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25121b0a-5db5-4f6f-ba86-9f83ab4f1cd0" name="Default" comment="" />
+    <list default="true" id="25121b0a-5db5-4f6f-ba86-9f83ab4f1cd0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/clientname-ui/target/" />
     <ignored path="$PROJECT_DIR$/clientname-core/target/" />
@@ -17,7 +19,7 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
+            <state relative-caret-position="10">
               <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
@@ -57,7 +59,7 @@
       <file leaf-file-name="midheader.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="465">
               <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding />
             </state>
@@ -87,7 +89,7 @@
       <file leaf-file-name="HeaderMainStripPojo.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
+            <state relative-caret-position="390">
               <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="35" />
               <folding />
             </state>
@@ -97,7 +99,7 @@
       <file leaf-file-name="HeaderSecondLevelStripPojo.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
+            <state relative-caret-position="105">
               <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding />
             </state>
@@ -137,13 +139,18 @@
       <find>headerList</find>
       <find>title</find>
       <find>title2</find>
-      <find>headerSecondLevelStripPojo</find>
       <find>headerMainStripPojo</find>
+      <find>headerSecondLevelStripPojo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -341,12 +348,12 @@
       <workItem from="1521786350357" duration="1719000" />
       <workItem from="1521799314344" duration="10130000" />
       <workItem from="1521954112963" duration="16630000" />
-      <workItem from="1522038887698" duration="11330000" />
+      <workItem from="1522038887698" duration="13231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39809000" />
+    <option name="totallyTimeSpent" value="41710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="0" />
@@ -670,18 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaComponent.groovy">
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/midheader/MidHeader.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="10">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -694,26 +693,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy">
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaComponent.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="180">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -726,10 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html">
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+        <state relative-caret-position="465">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -742,10 +725,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html">
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/midheader/MidHeader.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="675">
+          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
           <folding />
         </state>
       </provider>
