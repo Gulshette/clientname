@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="Full Width Banner" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <FullWidthBanner jcr:primaryType="cq:Widget" title="Full Width Banner">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <bgimage allowBlank="{Boolean}false" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Background Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./bgimage" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <title allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./title" xtype="textfield"/>
+            <description allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Description" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./description" xtype="textarea"/>
+          </items>
+        </FullWidthBanner>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>
