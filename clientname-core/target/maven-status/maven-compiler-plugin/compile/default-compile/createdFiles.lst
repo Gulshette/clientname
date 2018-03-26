@@ -29,6 +29,7 @@ com/clientname/components/content/footer/Footer$_getColumnTextLinkData_closure6.
 com/clientname/annotations/NilayaComponent.class
 com/clientname/annotations/DialogPathField.class
 com/clientname/components/content/subheader/SocialIcons.class
+com/clientname/components/content/fullwidthbanner/FullWidthBanner.class
 com/clientname/annotations/DialogSwitchField.class
 com/clientname/annotations/MultiCompositeFieldItem.class
 com/clientname/annotations/DialogSelfImageField.class
