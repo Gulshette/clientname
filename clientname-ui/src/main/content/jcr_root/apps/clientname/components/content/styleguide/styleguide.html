@@ -1,0 +1,16 @@
+<div class="styleguide-block" data-sly-use.data="com.clientname.components.content.styleguide.StyleGuide">
+    <h2 class="heading-text">
+        ${properties.title}
+    </h2>
+    <div class="styleguide-wrapper" data-sly-list="${data.styleGuideData}" >
+        <div class="styleguide-item">
+
+            <div class="styleguide-heading" >
+                <span class="styleguide-title">${item.subTitle}</span>
+            </div>
+            <p class="styleguide-info">
+                ${item.description @context='html'}
+            </p>
+        </div>
+    </div>
+</div>

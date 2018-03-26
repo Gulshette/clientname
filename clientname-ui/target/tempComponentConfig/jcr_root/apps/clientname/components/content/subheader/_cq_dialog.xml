@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root fileName="_cq_dialog.xml" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="nt:unstructured" jcr:title="subheader" mode="edit" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" sling:resourceType="cq/gui/components/authoring/dialog">
+  <content jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
+    <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/tabs"/>
+    <items jcr:primaryType="nt:unstructured">
+      <TopLinkstab xmlns:cq="http://www.day.com/jcr/cq/1.0" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" jcr:primaryType="nt:unstructured" jcr:title="Top Links tab" sling:resourceType="granite/ui/components/foundation/section">
+        <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+          <column jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+              <linkItem allowReorder="{Boolean}true" baseName="item_" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Sub Header Links" jcr:primaryType="nt:unstructured" limit="6" matchBaseName="{Boolean}false" name="./linkItem" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="multicomposite/granite/multicomposite">
+                <fields jcr:primaryType="nt:unstructured">
+                  <titleText cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the sub header title" fieldLabel="Enter the sub header title" jcr:primaryType="nt:unstructured" name="titleText" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+                  <reDirectPath cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter redirection path for sub title" fieldLabel="Enter redirection path for sub title" jcr:primaryType="nt:unstructured" name="reDirectPath" renderReadOnly="{Boolean}true" required="{Boolean}false" rootPath="/content/" sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
+                </fields>
+              </linkItem>
+            </items>
+          </column>
+        </items>
+      </TopLinkstab>
+      <OtherDivisiontab xmlns:cq="http://www.day.com/jcr/cq/1.0" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" jcr:primaryType="nt:unstructured" jcr:title="Other Division tab" sling:resourceType="granite/ui/components/foundation/section">
+        <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+          <column jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+              <otherDivisonTitle cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the Other Divison title" jcr:primaryType="nt:unstructured" name="./otherDivisonTitle" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+              <linkItem1 allowReorder="{Boolean}true" baseName="item_" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter Other Division Dropdown List" jcr:primaryType="nt:unstructured" limit="0" matchBaseName="{Boolean}false" name="./linkItem1" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="multicomposite/granite/multicomposite">
+                <fields jcr:primaryType="nt:unstructured">
+                  <titleText cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the sub header title" fieldLabel="Enter the sub header title" jcr:primaryType="nt:unstructured" name="titleText" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+                  <reDirectPath cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter redirection path for sub title" fieldLabel="Enter redirection path for sub title" jcr:primaryType="nt:unstructured" name="reDirectPath" renderReadOnly="{Boolean}true" required="{Boolean}false" rootPath="/content/" sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
+                </fields>
+              </linkItem1>
+            </items>
+          </column>
+        </items>
+      </OtherDivisiontab>
+      <Languagetab xmlns:cq="http://www.day.com/jcr/cq/1.0" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" jcr:primaryType="nt:unstructured" jcr:title="Language tab" sling:resourceType="granite/ui/components/foundation/section">
+        <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+          <column jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+              <languageTitle cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the Language Divison title" jcr:primaryType="nt:unstructured" name="./languageTitle" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+              <linkItem2 allowReorder="{Boolean}true" baseName="item_" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the Language Dropdown List" jcr:primaryType="nt:unstructured" limit="0" matchBaseName="{Boolean}false" name="./linkItem2" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="multicomposite/granite/multicomposite">
+                <fields jcr:primaryType="nt:unstructured">
+                  <titleText cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the sub header title" fieldLabel="Enter the sub header title" jcr:primaryType="nt:unstructured" name="titleText" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+                  <reDirectPath cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter redirection path for sub title" fieldLabel="Enter redirection path for sub title" jcr:primaryType="nt:unstructured" name="reDirectPath" renderReadOnly="{Boolean}true" required="{Boolean}false" rootPath="/content/" sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
+                </fields>
+              </linkItem2>
+            </items>
+          </column>
+        </items>
+      </Languagetab>
+      <CountryDetailstab xmlns:cq="http://www.day.com/jcr/cq/1.0" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" jcr:primaryType="nt:unstructured" jcr:title="Country Details tab" sling:resourceType="granite/ui/components/foundation/section">
+        <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+          <column jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+              <mainCountryImage cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the country iamge" fieldLabel="Enter the country image" jcr:primaryType="nt:unstructured" name="./mainCountryImage" renderReadOnly="{Boolean}true" required="{Boolean}false" rootPath="/" sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
+              <countryName allowReorder="{Boolean}true" baseName="item_" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the Country dropdown list" jcr:primaryType="nt:unstructured" limit="0" matchBaseName="{Boolean}false" name="./countryName" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="multicomposite/granite/multicomposite">
+                <fields jcr:primaryType="nt:unstructured">
+                  <countryImage cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the  country image" jcr:primaryType="nt:unstructured" name="countryImage" renderReadOnly="{Boolean}true" required="{Boolean}false" rootPath="/" sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
+                  <countryName cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the country name" jcr:primaryType="nt:unstructured" name="countryName" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+                  <countryRedirectPath cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the country redirection path" jcr:primaryType="nt:unstructured" name="countryRedirectPath" renderReadOnly="{Boolean}true" required="{Boolean}false" rootPath="/" sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
+                </fields>
+              </countryName>
+            </items>
+          </column>
+        </items>
+      </CountryDetailstab>
+      <SocialIconstab xmlns:cq="http://www.day.com/jcr/cq/1.0" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" jcr:primaryType="nt:unstructured" jcr:title="Social Icons tab" sling:resourceType="granite/ui/components/foundation/section">
+        <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+          <column jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+              <socialIcons allowReorder="{Boolean}true" baseName="item_" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the Social Icons Details" jcr:primaryType="nt:unstructured" limit="0" matchBaseName="{Boolean}false" name="./socialIcons" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="multicomposite/granite/multicomposite">
+                <fields jcr:primaryType="nt:unstructured">
+                  <imagePath cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the image path" jcr:primaryType="nt:unstructured" name="imagePath" renderReadOnly="{Boolean}true" required="{Boolean}false" rootPath="/" sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
+                  <imagePathRedirection cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the image redirection path" jcr:primaryType="nt:unstructured" name="imagePathRedirection" renderReadOnly="{Boolean}true" required="{Boolean}false" rootPath="/" sling:resourceType="granite/ui/components/foundation/form/pathbrowser"/>
+                </fields>
+              </socialIcons>
+            </items>
+          </column>
+        </items>
+      </SocialIconstab>
+    </items>
+  </content>
+</jcr:root>

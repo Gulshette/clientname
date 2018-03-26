@@ -1,0 +1,41 @@
+<sly data-sly-test="${wcmmode.edit}" data-sly-use.authoringUtils="/libs/wcm/foundation/components/utils/AuthoringUtils.js"/>
+
+<div class="hdr-mdle clearfix" data-sly-use.midhead="com.clientname.components.content.midheader.MidHeader">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-5">
+                <a href="${midhead.logoPath.href}" class="ap-logo">
+                    <img src="${midhead.logoImage}" alt="Asian Paints">
+                </a>
+            </div>
+            <div class="col-md-8 col-xs-7">
+                <a href="javascript:;" class="menu-tggle"></a>
+                <div class="cart pull-right">
+                    <a class="cart-icon" href="${midhead.userIconPath.href}">
+                        <img width="27" src="${midhead.userIcon}" alt="Cart Icon">	<span class="cart-items">2</span>
+                    </a>
+                </div>
+                <div class="login pull-right">
+                    <a class="login-icon" href="${midhead.cartIconPath.href}">
+                        <img width="26" src="${midhead.cartIcon}" alt="Cart Icon">
+                    </a>
+                </div>
+                <div class="srch-input pull-right">
+                    <input type="text" placeholder="search for products, colours, services, and more">
+                    <button type="button"></button>
+                </div>
+                <a href="${midhead.homeDecorIconPath.href}" class="strt-prjct">
+                    <div class="strt-img">
+                        <img src="${midhead.homeDecorIcon}" alt="Image">
+                    </div>
+                    <p>start
+                        <br>a decor project</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<img data-sly-test="${wcmmode.edit && authoringUtils && authoringUtils.isTouch}"
+     src="/etc/designs/default/0.gif" data-emptytext="midheader"
+     class="cq-placeholder file cq-dd-image"/>

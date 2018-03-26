@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="Watch Season" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <WatchSeason jcr:primaryType="cq:Widget" title="Watch Season">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <galleryTitle allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Gallery title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./galleryTitle" xtype="textfield"/>
+            <title allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./title" xtype="textfield"/>
+            <galleryData allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Gallery section data" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./galleryData" prefix="./" xtype="multicompositefield">
+              <fieldConfigs jcr:primaryType="cq:WidgetCollection">
+                <imgPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Episode Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imgPath" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <episodeLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Episode link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="episodeLink" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <episodeDescription allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Episode description" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="episodeDescription" xtype="textarea"/>
+              </fieldConfigs>
+            </galleryData>
+          </items>
+        </WatchSeason>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>

@@ -1,0 +1,15 @@
+#base=js
+
+jquery-1.10.2.min.js
+bootstrap.min.js
+modernizr.custom.js
+uiMorphingButton_fixed.js
+classie.js
+plugin.js
+lytebox.js
+bootstrap-select.min.js
+imagesloaded.pkgd.min.js
+owl.carousel.js
+jquery-ui.js
+main.js
+custom.js

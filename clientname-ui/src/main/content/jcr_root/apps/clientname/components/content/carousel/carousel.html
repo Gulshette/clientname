@@ -1,0 +1,36 @@
+<div class="decor-container" data-sly-use.data="com.clientname.components.content.carousel.Carousel">
+    <h2 class="heading-text">${data.title}</h2>
+    <div class="decor-advice-block clearfix">
+
+        <div class="owl-decor-carousel owl-carousel owl-theme " data-sly-list="${data.testimonialData}">
+            <div class="item decor-block">
+                <img class="quote-open" src="images/quote-open-icon.png">${item.description @context='html'}
+                <img class="quote-close" src="images/quote-close-icon.png">
+                <div class="btn-block">
+                    <a class="text-link">- ${item.btntext @context='html'}</a>
+                </div>
+            </div>
+           <!--/*  <div class="item decor-block"><img class="quote-open" src="images/quote-open-icon.png">  My home is not just a place, it's the light, it's the sound, it's the texture, the colour it's the lilt in the air, the quiet in the shade<img class="quote-close" src="images/quote-close-icon.png">
+                <div class="btn-block">
+                    <a class="text-link">- more decor advice</a>
+                </div>
+            </div>
+            <div class="item decor-block"><img class="quote-open" src="images/quote-open-icon.png"> My home is not just a place, it's the light, it's the sound, it's the texture, the colour it's the lilt in the air, the quiet in the shade<img class="quote-close" src="images/quote-close-icon.png">
+                <div class="btn-block">
+                    <a class="text-link">- more decor advice</a>
+                </div>
+            </div>
+            <div class="item decor-block"><img class="quote-open" src="images/quote-open-icon.png"> My home is not just a place, it's the light, it's the sound, it's the texture, the colour it's the lilt in the air, the quiet in the shade, the heat of the noonday sun, the calm of an early night. The people I choose, and the people who choose me; the laughter, the mirth, the everyday hope. My home is not just a place, it's where my heart is<img class="quote-close" src="images/quote-close-icon.png">
+                <div class="btn-block">
+                    <a class="text-link">- more decor advice</a>
+                </div>
+            </div>
+            <div class="item decor-block"><img class="quote-open" src="images/quote-open-icon.png"> My home is not just a place, it's the light, it's the sound, it's the texture, the colour it's the lilt in the air, the quiet in the shade, the heat of the noonday sun, the calm of an early night. The people I choose, and the people who choose me; the laughter, the mirth, the everyday hope. My home is not just a place, it's where my heart is<img class="quote-close" src="images/quote-close-icon.png">
+                <div class="btn-block">
+                    <a class="text-link">- more decor advice</a>
+                </div>
+            </div> */-->
+
+        </div>
+    </div>
+</div>

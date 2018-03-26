@@ -1,0 +1,95 @@
+<footer class="main-footer clearfix" data-sly-use.footerData="com.clientname.components.content.footer.Footer">
+    <div class="ftr-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="newslttr">
+                        <div class="checkbox">
+                            <input type="checkbox" class="styled">
+                            <label>${properties.newsletter}</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" class="styled">
+                            <label>${properties.colourQuotient}</label>
+                        </div>
+                        <div class="signup-input">
+                            <input type="text" placeholder="enter your email id">
+                            <button type="submit">sign up</button>
+                            <p class="sucess-msg">Sign up Sucessfully</p>
+                            <p class="error-msg">Invalid email id</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="socl-lnks2 pull-right" data-sly-list="${footerData.socialLinkData}">
+                        <li>
+                            <a href="${item.pathLink}" target="_blank">
+                                <img src="${item.imgPath}" alt="${item.linkText}">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ftr-mdle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="ftr-links" data-sly-list="${footerData.textLinkData}">
+                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
+                                </li></sly>
+                                <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="ftr-links" data-sly-list="${footerData.faqTextLinkData}">
+                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a></li>
+                                </sly>
+                                <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="ftr-links" data-sly-list="${footerData.downloadTextLinkData}">
+                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
+                                </li></sly>
+                                <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="ftr-links" data-sly-list="${footerData.requestTextLinkData}">
+                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
+                                </li></sly>
+                                <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ftr-btm">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="copyright">${properties.title}</p>
+                </div>
+                <div class="col-sm-8">
+                    <ul class="ftr-links2 pull-right" data-sly-list="${footerData.columnTextLinkData}">
+                        <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
+                        </li></sly>
+                        <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+

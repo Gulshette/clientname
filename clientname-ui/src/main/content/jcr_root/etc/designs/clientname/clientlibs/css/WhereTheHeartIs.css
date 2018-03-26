@@ -1,0 +1,1044 @@
+/*--WTHI Page strts here-*/
+
+.wthi-container {
+    clear: both;
+    color: #333333;
+    font-size: 15px;
+    font-family: Arial;
+}
+ .full-widt-container {
+     clear: both;
+     width: 100%;
+     display: inline-block;
+}
+ .wthi-container .wthi-header {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     padding: 15px 0;
+}
+ .wthi-logo-wrapper {
+     max-width: 120px;
+}
+ .wthi-logo-wrapper .logo {
+     display: inline-block;
+     width: 100%;
+}
+ .wthi-logo-wrapper .logo > img {
+     width: 100%;
+     height: auto;
+}
+ .wthi-container .season-section .season-list {
+     font-size: 0;
+}
+ .wthi-container .season-section .season-list > .list{
+     padding: 0;
+     margin: 0 25px 0 0;
+     display: inline-block;
+}
+ .wthi-container .season-section .season-list > .list:last-child {
+     margin-right: 0;
+}
+ .wthi-container .season-section .season-list > .list > a {
+     color: #a2a2a2;
+     font-size: 18px;
+     font-family: Arial, sans-serif;
+}
+ .wthi-container .season-section .season-list > .list > a.active {
+     color: #555555;
+     padding-bottom: 5px;
+     border-bottom: 2px solid #9a9a9c;
+     position: relative;
+}
+ .wthi-container .season-section .season-list > .list > a.active:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -32px;
+    margin: auto;
+    z-index: 1;
+}
+ .wthi-container .season-section .season-list > .list > a.active:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #9a9a9c;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -37px;
+    margin: auto;
+}
+ .wthi-menu-block {
+     clear: both;
+     background: #6b6f71;
+}
+ .wthi-menu-block .menu-list {
+     font-size: 0;
+     overflow: auto;
+     white-space: nowrap;
+}
+ .wthi-menu-block .menu-list .list {
+     display: inline-block;
+}
+ .wthi-menu-block .menu-list .list .list-text{
+     padding: 10px;
+     margin: 0 15px 0 0;
+     display: inline-block;
+     width: 100%;
+     font-size: 16px;
+     color: #fff;
+     font-family: 'Conv_accordaltlight-webfont';
+}
+ .wthi-menu-block .menu-list .list .dropdown-menu {
+     background-color: #6b6f71;
+}
+ .wthi-menu-block .menu-list .list .dropdown-menu .list-text {
+     padding: 5px 10px;
+     margin-bottom: 5px;
+}
+ .wthi-menu-block .menu-list > .list:first-child .list-text {
+     padding-left: 0;
+}
+ .wthi-menu-block .menu-list > .list:last-child .list-text {
+     margin-right: 0;
+}
+ .wthi-menu-block .rest-menu-list{
+     display: inline-block;
+}
+ .wthi-menu-block .manu-list-desktop {
+     cursor: pointer;
+}
+ .wthi-menu-block .menu-list .manu-list-desktop {
+     display: none;
+}
+ .wthi-menu-block .manu-list-desktop .dropdown-toggle::before {
+     display: inline-block;
+     width: 0;
+     height: 0;
+     margin-left: .255em;
+     vertical-align: .255em;
+     content: "";
+     border-top: 0.4em solid #6b6f71;
+     border-right: .4em solid transparent;
+     border-bottom: 0;
+     border-left: .4em solid transparent;
+     position: absolute;
+     right: 10px;
+     top: 14px;
+}
+ .wthi-menu-block .manu-list-desktop .dropdown-toggle::after {
+     display: inline-block;
+     width: 0;
+     height: 0;
+     margin-left: .255em;
+     vertical-align: 0;
+     content: "";
+     border-top: .4em solid;
+     border-right: .4em solid transparent;
+     border-bottom: 0;
+     border-left: .4em solid transparent;
+}
+ .wthi-container .season-dropdown .bootstrap-select {
+     width: 150px !important;
+     min-width: 150px !important;
+}
+ .wthi-container .season-dropdown .dropdown-toggle:active {
+    box-shadow: none !important;
+ }
+ .wthi-container .season-dropdown .dropdown-toggle {
+     border: 0;
+     font-size: 20px;
+     border-bottom: 1px solid;
+     border-radius: 0;
+     padding-bottom: 5px;
+     outline: none !important;
+}
+ .wthi-container .season-dropdown .dropdown-toggle .caret {
+     position: relative;
+     border-top: 10px dashed;
+     border-right: 10px solid transparent;
+     border-left: 10px solid transparent;
+}
+ .wthi-container .season-dropdown .dropdown-toggle .caret:before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     top: -12px;
+     left: -10px;
+     border-top: 10px solid #fff;
+     border-right: 10px solid transparent;
+     border-left: 10px solid transparent;
+}
+ .wthi-container .season-dropdown .dropdown-menu {
+     width: 100%;
+}
+ .wthi-container .season-dropdown .dropdown-menu > li > a{
+     font-size: 16px;
+}
+ .wthi-container .season-dropdown:focus {
+     outline: none !important;
+}
+ .wthi-container .season-dropdown .btn-default {
+     padding-left: 5px;
+}
+ .wthi-container .season-dropdown .btn-default:hover, .wthi-container .season-dropdown .btn-default:focus{
+     background:transparent;
+}
+ .wthi-full-width-banner {
+     width: 100%;
+     /*min-height: 400px;*/
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     position: relative;
+     background-size: cover !important;
+}
+ .wthi-full-width-banner .banner-overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: rgba(11,10,10,.43);
+}
+ .wthi-container .page-title-wrapper {
+     z-index: 1;
+     position: absolute;
+}
+ .wthi-container .page-title-wrapper .page-title{
+     color: #fff;
+     font-size: 30px;
+     margin: 0;
+     text-align: center;
+     font-family: '';
+     font-style: italic;
+}
+ .wthi-container .page-description{
+     color: #fff;
+     font-size: 10px;
+     width: 320px;
+     text-align: center;
+     font-family: 'Conv_accordaltlight-webfont';
+}
+ .wthi-container .page-description > p {
+     line-height: 20px;
+     padding: 0 10px;
+}
+ .wthi-container .title-paragrap-block {
+     clear: both;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+
+ .wthi-container .title-paragrap-block .title, .wthi-container .heading-text,
+  .wthi-container .season-heading {
+     color: #333333;
+     font-size: 20px;
+     margin-bottom: 20px;
+     padding-bottom: 5px;
+     border-bottom: 1px solid #cecece;
+     text-shadow: 1px 1px rgba(0,0,0,0.2);
+     display: inline-block;
+     font-family: 'Conv_accordaltbold-webfont';
+     text-transform: lowercase;
+}
+ .wthi-container .title-paragrap-block .text-content{
+     color: #333;
+     line-height: 24px;
+     font-size: 16px;
+     font-family: 'Conv_accordaltlight-webfont';
+}
+ .wthi-container .episode-wrapper {
+     width: 100%;
+     display: inline-block;
+     margin: 30px 0;
+}
+ .wthi-container .episode-wrapper .episode-item .episode-no, .wthi-container .episode-wrapper .episode-item .episode-title, .wthi-container .watch-season-section .gallery-title {
+     color: #333333;
+     font-size: 18px;
+     font-family: 'Conv_accordaltregular-webfont';
+}
+ .wthi-container .episode-wrapper .episode-item .episode-heading {
+     margin-bottom: 20px;
+}
+ .wthi-container .episode-wrapper .episode-item .image-wrapper{
+     width: 100%;
+     display: inline-block;
+     margin-bottom: 20px;
+}
+ .wthi-container .episode-wrapper .image-wrapper .episode-image {
+     width: 100%;
+     height: auto;
+}
+ .wthi-container .episode-wrapper .episode-item .episode-info {
+     color: #272727;
+     font-size: 15px;
+     margin-bottom: 20px;
+}
+ .wthi-container .btn-block .cust-btn-link {
+     color: #6d6e71;
+     font-size: 13px;
+     padding: 6px 20px;
+     display: inline-block;
+     border: 2px solid #606060;
+     font-family: 'Conv_accordaltbold-webfont';
+     cursor: pointer;
+     text-transform: lowercase;
+}
+.wthi-container .btn-block .cust-btn-link:hover {
+    background: #606060;
+    color: #fff;
+    transition: background 0.5s ease-in-out;  
+}
+ .wthi-container .other-episode-block {
+     clear: both;
+     width: 100%;
+     display: inline-block;
+}
+ .wthi-container .other-episode-block .episode-wrapper{
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+}
+ .wthi-container .other-episode-block .episode-item {
+     margin-bottom: 60px;
+}
+ .wthi-container .other-episode-block .episode-item:last-child {
+     margin-bottom: 0px;
+}
+ .wthi-container .decor-container {
+    margin: 30px 0 
+ }
+ .wthi-container .decor-advice-block {
+     background: #feb01a;
+     padding: 25px;
+     text-align: center;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column; 
+}
+ .wthi-container .decor-block {
+     color: #fff;
+     font-size: 24px;
+     line-height: 37px;
+     position: relative;
+     padding-top: 15px;
+     font-family: 'Conv_accordaltregular-webfont';
+}
+ .wthi-container .quote-open {
+     width: 50px;
+     height: 45px;
+     margin-top: -20px;
+}
+ .wthi-container .quote-close {
+     width: 50px;
+     height: 45px;
+     bottom: 0;
+     margin-left: 5px;
+     margin-top: -20px;
+}
+ .wthi-container .decor-advice-block .btn-block .text-link {
+     color: #fff;
+     border: 0px !important;
+     text-transform: capitalize;
+}
+ .wthi-container .watch-season-section {
+     clear: both;
+     display: inline-block;
+     width: 100%;
+     margin: 30px 0 
+}
+ .wthi-container .watch-season-section .season-title {
+     margin-top: 10px;
+}
+ .wthi-container .watch-season-section .gallery-section {
+     clear: both;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: flex-start;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+}
+
+ .wthi-container .gallery-section .episode-block .episode-desc {
+     color: #333;
+     font-size: 13px;
+     margin-top: 5px;
+     margin-bottom: 0;
+     font-family: 'Conv_accordaltregular-webfont';
+}
+ .wthi-container .gallery-section .episode-block .episode-link {
+     width: 100%;
+     display: inline-block;
+}
+
+ .wthi-container .owl-pagination {
+	display: block;
+} 
+.wthi-container .owl-buttons {
+	display: none !important;
+}
+ .wthi-container .owl-theme .owl-controls .owl-page span {
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border: 1px solid #fff;
+    opacity: 1;
+}
+ .wthi-container .owl-theme .owl-controls .owl-page.active span,  .wthi-container .owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: #fff !important;
+}
+
+
+.previewModal .modal-dialog {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    position: fixed;
+    background: transparent !important; 
+    margin-top: 0 !important;   
+}
+
+.previewModal .modal-dialog .modal-content .modal-body {
+    padding-bottom: 30px !important;
+}
+.previewModal .modal-dialog .modal-content .modal-header {
+    margin: 0 !important; 
+}
+.previewModal .modal-dialog .modal-content {
+    height: auto !important;
+    background: #f2f2f2;
+}
+.previewModal .modal-dialog .preview_block {
+    width: 90%;
+    text-align: center;
+    display: block;
+    margin: auto
+}
+.wthi-container .gallery-section .episode-block {
+    max-width: 47%;
+    margin-bottom: 4%;
+    margin-left: 6%;
+}
+.wthi-container .title-paragrap-block .sub-title {
+    color: #333333;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    display: block;
+    font-family: 'Conv_accordaltlight-webfont';
+}
+
+ @media (min-width: 320px) and (max-width: 767px) {
+    .wthi-container .gallery-section .episode-block:nth-child(2n + 1) {
+          margin-left: 0 !important;
+    }
+     .wthi-container .title-paragrap-block.inner-page{
+        margin-bottom: 0;
+     }
+ }
+ @media (max-width: 460px) {
+     .wthi-container .other-episode-block .episode-item {
+         max-width: 100%;
+    }
+}
+ @media (min-width: 480px) and (max-width: 1024px) {
+     .wthi-container .other-episode-block .episode-item {
+         max-width: 45%;
+    }
+}
+ @media (min-width: 768px) and (max-width: 1024px) {
+    .wthi-container .gallery-section .episode-block {
+        max-width: 31%;
+        margin-left: 3.5%;
+    }
+    .wthi-container .gallery-section .episode-block:nth-child(3n + 1) {
+          margin-left: 0 !important;
+    }
+     .wthi-container .page-title-wrapper .page-title{
+     font-size: 40px;
+     margin-bottom: 10px;
+    }
+ .wthi-container .page-description{
+     font-size: 16px;
+    }
+}
+ @media (min-width: 1200px) {
+
+    .wthi-container .page-description{
+     width: 400px;
+    }
+
+    .wthi-container .page-title-wrapper .page-title{
+     margin: 0 0 10px 0;
+    }
+    .wthi-container .page-title-wrapper .page-title{
+     font-size: 40px;
+    }
+ .wthi-container .page-description{
+     font-size: 16px;
+    }
+     .wthi-container .season-section .season-list > .list > a.active:before {
+    bottom: -33px;
+}
+
+     .wthi-full-width-banner {
+     background-size: 100% 100% !important;
+}
+     .wthi-container .title-paragrap-block .title, .wthi-container .heading-text,
+      .wthi-container .season-heading {
+         font-size: 28px;
+    }
+     .wthi-container .episode-wrapper .episode-item .episode-no, .wthi-container .episode-wrapper .episode-item .episode-title, .wthi-container .watch-season-section .gallery-title {
+         font-size: 24px;
+    }
+    .wthi-container {
+        font-size: 18px;
+    }
+     .wthi-container .btn-block .cust-btn-link {
+         font-size: 20px;
+         padding: 12px 20px;
+    }
+
+     .wthi-menu-block .menu-list {
+         overflow: initial;
+         white-space: initial;
+    }
+     .wthi-menu-block .menu-list .rest-menu-list{
+         display: none;
+    }
+     .wthi-menu-block .menu-list .manu-list-desktop{
+         display: inline-block;
+    }
+     
+     .wthi-container .other-episode-block .episode-item {
+         max-width: 530px;
+    }
+  
+     .wthi-container .decor-advice-block {
+        margin-top: 15px; 
+         padding: 50px;
+    }
+     .wthi-container .gallery-section .episode-block {
+         max-width: 360px;
+         margin-bottom: 30px;
+    }
+    
+    .wthi-container .gallery-section .episode-block + .episode-block {
+         margin-left: 30px;
+    }
+     .wthi-container .decor-block {
+	     font-size: 24px;
+	     line-height: 42px;
+	}
+    .previewModal .modal-dialog .preview_block {
+    width: 70%;
+        height: 650px;
+    }
+    .previewModal .modal-dialog .preview_block > img {
+        max-height: 550px;
+        width: 700px;
+    }
+    .previewModal .modal-dialog .modal-content .modal-body {
+        padding-bottom: 0px;
+    }
+     .wthi-container .gallery-section .episode-block .episode-desc {
+         font-size: 20px;
+    }
+
+    .wthi-container .gallery-section .episode-block:nth-child(3n + 1) {
+          margin-left: 0 !important;
+    }
+}
+/*--WTHI Page end here-*/
+
+/*--Inner PAge CSS strts here-*/
+ .btn-style-wthi {
+     background-color: transparent;
+     border: 2px solid #fff;
+     color: #fff;
+     font-family: 'Conv_accordaltregular-webfont';
+     display: inline-block;
+     font-size: 18px;
+     padding: 7px 30px 8px;
+     -webkit-transition: all 0.2s linear;
+     -o-transition: all 0.2s linear;
+     transition: all 0.2s linear;
+}
+.btn-style-wthi:hover {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+/*----New LAyout--*/
+.innerpagegallery-section {
+	clear: both;
+	margin: 20px 0;
+}
+
+  .wthi-container .heading {
+     color: #333333;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cecece;
+    text-shadow: 1px 1px rgba(0,0,0,0.2);
+    display: inline-block;
+    font-family: 'Conv_accordaltbold-webfont';
+    text-transform: lowercase;
+}
+
+ .innerpagegallery-section .season-title, .newstyleguideshare-block .newstyleguideshare-title {
+     margin-top: 10px;
+}
+ .innerpagegallery-section .gallery-section {
+     clear: both;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: flex-start;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+}
+ .gallery-section .innerpagegallery-block .innerpagegallery-link {
+     width: 100%;
+     display: inline-block;
+}
+ .video-innerpage {
+     clear: both;
+     display: inline-block;
+     width: 100%;
+     margin-bottom: 30px;
+}
+ .video-desc h3 {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Conv_accordaltregular-webfont';
+ }
+ .video-desc p {
+     padding-bottom: 13px;
+     text-align: justify;
+     color: #fff;
+     font-family: Arial;
+}
+ .video-innerpage .video-section {
+     clear: both;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+}
+ .video-watch-section {
+     clear: both;
+     display: inline-block;
+     width: 100%;
+     margin: 30px 0;
+     background: #feb01a;
+}
+ .video-details {
+     clear: both;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+}
+ .video-watch-section .video-image {
+     max-width: 440px;
+}
+ .video-watch-section .video-desc {
+     width: 100%;
+     color: #fff;
+}
+ .newstyleguideshare-block {
+     clear: both;
+     display: inline-block;
+     width: 100%;
+     margin: 30px 0;
+}
+ .stylecolor-section {
+     margin-top: 30px;
+     clear: both;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+}
+ .color-scheme-box{
+     height: 70px;
+     margin-bottom: 2px;
+     width: 70px;
+     display: inline-block;
+}
+ .style-boxes .style-boxes-list li p {
+     display: inline-block;
+     padding-left: 5px;
+     margin-bottom: 10px;
+     font-size: 18px;
+     color: #000000;
+}
+.style-boxes .style-boxes-list li p:last-child {
+	margin-bottom: 0;
+}
+ .style-boxes .style-boxes-list li {
+     display: inline-block;
+     padding-right: 20px;
+}
+
+ .explore-shades {
+     margin-top: 30px;
+}
+ .color-scheme-details {
+     display: inline-block;
+     width: calc(100% - 81px);
+     vertical-align: top;
+    padding-top: 20px;
+}
+ .style-boxes .style-boxes-list li a {
+     display: inline-block;
+     width: 100%;
+     vertical-align: top;
+}
+ .innerpagegallery-block{
+     margin-bottom: 20px;
+}
+ .video-iframe , .video-iframe #youtubeframe {
+     width: 100%;
+     height: 512px;
+}
+ .stylelike-view .like-view:last-child {
+     margin: 0;
+}
+ .stylelike-view .like-view .like, .stylelike-view .like-view .share {
+     cursor: default;
+     display: inline-block;
+     line-height: 16px;
+     margin-right: 15px;
+}
+ .stylelike-view .like-view .like .icon {
+     background-position: 0 0;
+     width: 15px;
+}
+ .stylelike-view .like-view .like:hover .icon {
+     background-position: 0 -20px;
+}
+ .stylelike-view .like-view .like .icon {
+     background: url(../../../apps/asianpaints/components/content/compareproducts/clientlibs/images/like-view2.png) no-repeat;
+     display: inline-block;
+     height: 16px;
+     margin-right: 5px;
+     vertical-align: top;
+}
+ .stylelike-view .share {
+     padding-top: 5px;
+}
+ .stylelike-view .like-view .like a, .stylelike-view .like-view .share a, .stylelike-view .like-view .watched a {
+     display: block;
+}
+ .stylelike-view .like-view .share .icon {
+     background: rgba(0, 0, 0, 0) url(../../../apps/asianpaints/components/content/compareproducts/clientlibs/images/share.png) no-repeat scroll 0 0 / 100% auto;
+     width: 15px;
+} 
+.stylelike-view .like-view .watched .icon {
+     background: rgba(0, 0, 0, 0) url(../../../apps/asianpaints/components/content/compareproducts/clientlibs/images/show-password.jpg) no-repeat scroll 0 0 / 100% auto;
+     width: 22px;
+    margin-top: -2px;
+}
+ .video-share .socl-lnks2 {
+     padding-top: 10px;
+     display: inline-block;
+}
+.video-share .socl-lnks2 li {
+    display: inline-block;
+    margin-right: 15px;
+}
+ .video-share .socl-lnks2 li a {
+     display: block;
+}
+.video-share .socl-lnks2 li a img {
+    max-width: 30px;
+    height: 30px;
+}
+ .video-watch-section {
+     padding: 15px;
+     margin: 40px 0;
+}
+
+.styleguide-desktop {
+     max-width: 360px;
+}
+ .styleguide-wrapper .styleguide-item .styleguide-heading {
+     margin-bottom: 20px;
+}
+ .styleguide-wrapper .styleguide-item .styleguide-heading .styleguide-title{
+     color: #333;
+     font-size: 20px;
+}
+.newstyleguideshare-title{
+     color: #333;
+     font-size: 18px;
+     font-family: 'Conv_accordaltregular-webfont';
+}
+.styleguide-block {
+     width: 100%;
+     display: inline-block;
+     margin: 30px 0;
+}
+ .styleguide-wrapper {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
+}
+ .styleguide-wrapper .styleguide-item .styleguide-no, .styleguide-wrapper .styleguide-item .styleguide-title {
+     color: #272727;
+     font-size: 20px;
+}
+ .styleguide-wrapper .styleguide-item .styleguide-heading {
+     margin-bottom: 20px;
+}
+ .styleguide-wrapper .styleguide-item .image-wrapper{
+     width: 100%;
+     display: inline-block;
+     margin-bottom: 20px;
+}
+ .styleguide-wrapper .image-wrapper .styleguide-image {
+     width: auto;
+     height: auto;
+}
+ .styleguide-wrapper .styleguide-item .styleguide-info {
+     color: #272727;
+     font-size: 15px;
+     margin-bottom: 20px;
+}
+.Walk-around-block {
+    clear: both;
+    margin: 20px 0;
+    display: inline-block;
+    width: 100%
+}
+.Walk-around-block #walk-around-iframe {
+    width: 100%;
+    height: 250px;
+}
+.Walk-around-block .stylelike-view{
+    margin: 10px 0;
+}
+.inner-page.title-paragrap-block {
+    overflow: hidden;
+}
+.title-paragrap-block.autoHeight {
+    height: auto;
+    overflow: initial;
+}
+.wthi-read-more {
+    color: #4f2b8a;
+    font-size: 16px;
+    margin-top: -20px;
+    text-decoration: underline;
+}
+
+ @media (max-width: 767px) and (min-width: 320px) {
+.innerpagegallery-section .gallery-section {
+    justify-content: flex-start;
+}
+    .gallery-section .innerpagegallery-block {
+        max-width: 260px;
+        padding-right: 20px;
+    }
+    .gallery-section .innerpagegallery-block:nth-child(2n + 1) {
+          margin-left: 0 !important;
+    }
+     .video-watch-section .video-image, .video-watch-section .video-desc {
+         width: 100%;
+    }
+     .video-iframe , .video-iframe #youtubeframe {
+         width: 100%;
+         height: 300px !important;
+    }
+     .style-boxes, .stylelike-view {
+         max-width: 100%;
+    }
+}
+
+/*--ipad--*/
+
+ @media (min-width: 480px) and (max-width: 1024px) {
+  
+     .video-watch-section .video-image {
+         max-width: 40%;
+    }
+     .video-watch-section .video-desc {
+         max-width: 100% !important;
+         color: #fff;
+    }
+     .video-watch-section {
+         padding: 15px;
+         margin: 40px 0;
+    }
+     .video-iframe, .video-iframe #youtubeframe {
+         width: 100%;
+    }
+     .wthi-container .other-episode-block .episode-item {
+         max-width: 45%;
+    }
+    .Walk-around-block #walk-around-iframe {
+        height: 450px;
+    }
+    .Walk-around-block #walk-around-iframe {
+        height: 450px;
+    }
+
+}
+ @media (min-width: 768px) and (max-width: 1024px) {
+    .innerpagegallery-block {
+         margin-bottom: 15px;
+         max-width: 32%;
+    }
+    .gallery-section .innerpagegallery-block {
+        max-width: 31%;
+        margin-left: 3.5%;
+    }
+    .gallery-section .innerpagegallery-block:nth-child(3n + 1){
+            margin-left: 0 !important;
+    }
+    .previewModal .modal-dialog .preview_block > img {
+        max-height: 550px;
+        width: 500px;
+    }
+ }
+@media (min-width: 768px) {
+    .styleguide-block .styleguide-item {
+         max-width: 22%;
+    }
+}
+ @media (min-width: 1200px) {
+
+ 	.innerpagegallery-section {
+		margin: 20px 0 30px 0;
+	}
+ 	.styleguide-wrapper.full-width .image-wrapper .styleguide-image {
+         height: 200px;
+    }
+     
+     .gallery-section .innerpagegallery-block {
+         max-width: 360px;
+         margin-bottom: 30px;
+    }
+    .gallery-section .innerpagegallery-block + .innerpagegallery-block  {
+         margin-left: 30px;
+    }
+    .gallery-section .innerpagegallery-block:nth-child(3n + 1) {
+          margin-left: 0 !important;
+    }
+     .video-watch-section {
+         padding: 35px;
+         margin: 40px 0;
+    }
+     .innerpagegallery-block {
+         margin-bottom: 30px;
+    }
+     .video-watch-section .video-desc {
+         max-width: 650px;
+         color: #fff;
+    }
+     .video-watch-section .video-image {
+         max-width: 440px;
+    }
+    .Walk-around-block {
+        margin: 30px 0;
+    }
+    .Walk-around-block .walk-around-iframe {
+        margin-top: 10px;
+    }
+    .Walk-around-block #walk-around-iframe {
+        height: 510px;
+    }
+    .video-desc h3 {
+    font-size: 28px;
+    }
+     .video-desc p {
+     padding-bottom: 18px;
+    }
+    .js-read-more {
+        display: none;
+    }
+    .inner-page.title-paragrap-block {
+        height: auto; 
+    }
+    .newstyleguideshare-title{
+     font-size: 24px;
+    }
+  .wthi-container .heading {
+        font-size: 28px;
+    }
+    .innerpagegallery-section .heading{
+        margin-bottom: 40px;
+    }
+
+}
+/*--Inner Page CSS end here-*/
+

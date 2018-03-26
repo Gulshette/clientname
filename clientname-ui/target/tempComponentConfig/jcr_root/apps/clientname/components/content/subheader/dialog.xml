@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="subheader" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <TopLinkstab jcr:primaryType="cq:Widget" title="Top Links tab">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <linkItem allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Sub Header Links" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./linkItem" prefix="./" xtype="multicompositefield">
+              <fieldConfigs jcr:primaryType="cq:WidgetCollection">
+                <titleText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the sub header title" fieldLabel="Enter the sub header title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="titleText" xtype="textfield"/>
+                <reDirectPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldDescription="Enter redirection path for sub title" fieldLabel="Enter redirection path for sub title" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="reDirectPath" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+              </fieldConfigs>
+            </linkItem>
+          </items>
+        </TopLinkstab>
+        <OtherDivisiontab jcr:primaryType="cq:Widget" title="Other Division tab">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <otherDivisonTitle allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the Other Divison title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./otherDivisonTitle" xtype="textfield"/>
+            <linkItem1 allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Enter Other Division Dropdown List" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./linkItem1" prefix="./" xtype="multicompositefield">
+              <fieldConfigs jcr:primaryType="cq:WidgetCollection">
+                <titleText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the sub header title" fieldLabel="Enter the sub header title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="titleText" xtype="textfield"/>
+                <reDirectPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldDescription="Enter redirection path for sub title" fieldLabel="Enter redirection path for sub title" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="reDirectPath" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+              </fieldConfigs>
+            </linkItem1>
+          </items>
+        </OtherDivisiontab>
+        <Languagetab jcr:primaryType="cq:Widget" title="Language tab">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <languageTitle allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the Language Divison title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./languageTitle" xtype="textfield"/>
+            <linkItem2 allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Enter the Language Dropdown List" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./linkItem2" prefix="./" xtype="multicompositefield">
+              <fieldConfigs jcr:primaryType="cq:WidgetCollection">
+                <titleText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the sub header title" fieldLabel="Enter the sub header title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="titleText" xtype="textfield"/>
+                <reDirectPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldDescription="Enter redirection path for sub title" fieldLabel="Enter redirection path for sub title" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="reDirectPath" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+              </fieldConfigs>
+            </linkItem2>
+          </items>
+        </Languagetab>
+        <CountryDetailstab jcr:primaryType="cq:Widget" title="Country Details tab">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <mainCountryImage allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldDescription="Enter the country iamge" fieldLabel="Enter the country image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./mainCountryImage" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <countryName allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Enter the Country dropdown list" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./countryName" prefix="./" xtype="multicompositefield">
+              <fieldConfigs jcr:primaryType="cq:WidgetCollection">
+                <countryImage allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the  country image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="countryImage" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <countryName allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Enter the country name" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="countryName" xtype="textfield"/>
+                <countryRedirectPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the country redirection path" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="countryRedirectPath" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+              </fieldConfigs>
+            </countryName>
+          </items>
+        </CountryDetailstab>
+        <SocialIconstab jcr:primaryType="cq:Widget" title="Social Icons tab">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <socialIcons allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Enter the Social Icons Details" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./socialIcons" prefix="./" xtype="multicompositefield">
+              <fieldConfigs jcr:primaryType="cq:WidgetCollection">
+                <imagePath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the image path" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imagePath" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <imagePathRedirection allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the image redirection path" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imagePathRedirection" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+              </fieldConfigs>
+            </socialIcons>
+          </items>
+        </SocialIconstab>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>

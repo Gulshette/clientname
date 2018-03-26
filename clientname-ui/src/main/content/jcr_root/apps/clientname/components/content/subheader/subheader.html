@@ -1,0 +1,51 @@
+<sly data-sly-test="${wcmmode.edit}" data-sly-use.authoringUtils="/libs/wcm/foundation/components/utils/AuthoringUtils.js"/>
+
+<div class="hdr-top clearfix" data-sly-use.subheader="com.clientname.components.content.subheader.SubHeader">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-4">	<a id="homeowner-tggle" href="javascript:;" class="dropdown-toggle">homeowner <span class="arrw-btm"></span></a>
+                <ul id="homeowner-drpdwn" class="top-links clearfix" data-sly-list.first="${subheader.linkItem}">
+                    <li class="mob-hide"><a href="javascript:;">homeowner</a></li>
+                    <sly data-sly-test="${first.titleText}">
+                    <li><a href="${first.reDirectPath.href}"> ${first.titleText} </a></li>
+                    </sly>
+
+                </ul>
+            </div>
+            <div class="col-sm-6 col-xs-8"  >
+                <ul class="socl-lnks pull-right tab-hide" data-sly-list.four="${subheader.socialIcons}">
+                    <li>
+                        <a href="${four.imagePathRedirection.href}" target="_blank">
+                            <img width="18" src="${four.imagePath}" alt="Image">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="top-links dropdown pull-right">
+                    <li>	<a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">${subheader.otherDivisonTitle} <span class="arrw-btm"></span></a>
+                        <ul class="dropdown-menu" data-sly-list.dropdownlist="${subheader.linkItem1}">
+                            <li><a href="${dropdownlist.reDirectPath.href}">${dropdownlist.titleText}</a></li>
+                        </ul>
+                    </li>
+                    <li>	<a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">${subheader.languageTitle} <span class="arrw-btm"></span></a>
+                        <ul class="dropdown-menu" data-sly-list.languageList="${subheader.linkItem2}">
+                            <li><a href="${languageList.reDirectPath.href}">${languageList.titleText}</a></li>
+                        </ul>
+                    </li>
+                    <li class="origin">	<a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown"><span class="india-flag"><img src="${subheader.mainCountryImage}" alt="India"> </span> <span class="arrw-btm"></span></a>
+                        <ul class="dropdown-menu cntry-list" data-sly-list.countryList="${subheader.countryName}">
+                            <li><a href="${countryList.countryRedirectPath.href}"><span class="cntry-flag"><img src="${countryList.countryImage}" alt="${countryList.countryName}"></span><span>${countryList.countryName}</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<img data-sly-test="${wcmmode.edit && authoringUtils && authoringUtils.isTouch}"
+     src="/etc/designs/default/0.gif" data-emptytext="subheader"
+     class="cq-placeholder file cq-dd-image"/>
+
+

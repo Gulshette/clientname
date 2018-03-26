@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="midheader" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <midheader jcr:primaryType="cq:Widget" title="midheader">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <logoImage allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the Logo image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./logoImage" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <logoPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the redirection path for logo" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./logoPath" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <userIcon allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the user iocn" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./userIcon" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <userIconPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the user icon path" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./userIconPath" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <cartIcon allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the Cart icon" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./cartIcon" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <cartIconPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the Cart icon path" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./cartIconPath" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <homeDecorIcon allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the home decor icon" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./homeDecorIcon" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <homeDecorIconPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Enter the home decor icon path" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./homeDecorIconPath" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+          </items>
+        </midheader>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>

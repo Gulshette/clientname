@@ -1,0 +1,15 @@
+<!-- Watch Season starts-->
+<div class="watch-season-section" data-sly-use.data="com.clientname.components.content.watchseason.WatchSeason">
+    <h3 class="heading-text">${data.title @context='html'}</h3>
+    <p class="gallery-title">${data.galleryTitle @context='html'}</p>
+    <div class="gallery-section" data-sly-list="${data.galleryData}">
+        <div class="episode-block">
+            <a class="episode-link" href="${item.episodeLink}">
+                <img class="episode-image" src="${item.imgPath}" alt="Image" />
+            </a>
+            <p class="episode-desc">${item.episodeDescription}</p>
+        </div>
+    </div>
+</div>
+<div data-sly-test.edit="${wcmmode.edit}" class="author-component">Watch Season</div>
+<!-- Watch Season starts-->
