@@ -31,6 +31,7 @@ import groovy.transform.AnnotationCollector
         misctools = @MiscTools(sourceedit = false),
         subsuperscript = @SubSuperscript,
         styles = [
+                @Style(cssName = "text-content", text = "Story Paragraph font"),
                 @Style(cssName = "color-black", text = "Black"),
                 @Style(cssName = "color-white", text = "White"),
                 @Style(cssName = "color-light", text = "Light"),

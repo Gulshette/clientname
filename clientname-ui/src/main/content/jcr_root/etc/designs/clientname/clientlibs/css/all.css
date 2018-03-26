@@ -15237,3 +15237,17 @@ ul.new-signup-listing li.passwordA .new-login-text-input.focusInput{padding-righ
 /*---------------------------------New Sign Up/ Login(19-1-18) Css end ----------------------------------------*/
 
 
+/* global Parsys Text */
+.author-component {
+    display:block;
+    padding:0.5em 2em;
+    color:#cfcfcf;
+    text-align:center;
+    border:1px solid #cfcfcf;
+    position:relative;
+     opacity:0.3;
+}
+
+[class*="cq-"] > .author-component {
+    opacity:1;
+}

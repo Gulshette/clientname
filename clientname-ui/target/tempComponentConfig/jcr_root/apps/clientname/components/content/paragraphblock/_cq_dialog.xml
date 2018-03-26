@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root fileName="_cq_dialog.xml" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="nt:unstructured" jcr:title="Paragraph Block" mode="edit" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" sling:resourceType="cq/gui/components/authoring/dialog">
+  <content jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
+    <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/tabs"/>
+    <items jcr:primaryType="nt:unstructured">
+      <ParagraphBlock xmlns:cq="http://www.day.com/jcr/cq/1.0" cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}false" jcr:primaryType="nt:unstructured" jcr:title="Paragraph Block" sling:resourceType="granite/ui/components/foundation/section">
+        <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+        <items jcr:primaryType="nt:unstructured">
+          <column jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+              <variant cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Select Variant" jcr:primaryType="nt:unstructured" multiple="{Boolean}false" name="./variant" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/select">
+                <items jcr:primaryType="nt:unstructured">
+                  <option0 jcr:primaryType="nt:unstructured" selected="{Boolean}true" text="Home page paragraph block" value="homepageparagraphblock"/>
+                  <option1 jcr:primaryType="nt:unstructured" selected="{Boolean}false" text="Story paragraph" value="storyparagraph"/>
+                </items>
+              </variant>
+              <title cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Title" jcr:primaryType="nt:unstructured" name="./title" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+              <subtitle cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Sub Title" jcr:primaryType="nt:unstructured" name="./subtitle" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+            </items>
+          </column>
+        </items>
+      </ParagraphBlock>
+    </items>
+  </content>
+</jcr:root>

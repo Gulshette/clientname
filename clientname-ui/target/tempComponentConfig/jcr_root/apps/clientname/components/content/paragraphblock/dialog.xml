@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="Paragraph Block" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <ParagraphBlock jcr:primaryType="cq:Widget" title="Paragraph Block">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <variant allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Select Variant" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./variant" type="select" xtype="selection">
+              <options jcr:primaryType="cq:WidgetCollection">
+                <option0 jcr:primaryType="nt:unstructured" text="Home page paragraph block" value="homepageparagraphblock"/>
+                <option1 jcr:primaryType="nt:unstructured" text="Story paragraph" value="storyparagraph"/>
+              </options>
+            </variant>
+            <title allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./title" xtype="textfield"/>
+            <subtitle allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Sub Title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./subtitle" xtype="textfield"/>
+            <text allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Description" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./text" xtype="richtext">
+              <rtePlugins jcr:primaryType="nt:unstructured">
+                <findreplace features="[find,replace]" jcr:primaryType="nt:unstructured"/>
+                <format features="[bold,italic,underline]" jcr:primaryType="nt:unstructured"/>
+                <image features="[image]" jcr:primaryType="nt:unstructured"/>
+                <justify features="[justifyleft,justifycenter,justifyright]" jcr:primaryType="nt:unstructured"/>
+                <links features="[modifylink,unlink,anchor]" jcr:primaryType="nt:unstructured"/>
+                <lists features="[ordered,unordered,indent,outdent]" jcr:primaryType="nt:unstructured"/>
+                <misctools features="[specialchars]" jcr:primaryType="nt:unstructured"/>
+                <paraformat features="*" jcr:primaryType="nt:unstructured">
+                  <formats jcr:primaryType="cq:WidgetCollection">
+                    <format0 description="Paragraph" jcr:primaryType="nt:unstructured" tag="p"/>
+                    <format1 description="Heading 2" jcr:primaryType="nt:unstructured" tag="h2"/>
+                    <format2 description="Heading 3" jcr:primaryType="nt:unstructured" tag="h3"/>
+                    <format3 description="Heading 4" jcr:primaryType="nt:unstructured" tag="h4"/>
+                    <format4 description="Heading 5" jcr:primaryType="nt:unstructured" tag="h5"/>
+                    <format5 description="Heading 6" jcr:primaryType="nt:unstructured" tag="h6"/>
+                  </formats>
+                </paraformat>
+                <styles features="*" jcr:primaryType="nt:unstructured">
+                  <styles jcr:primaryType="cq:WidgetCollection">
+                    <style0 cssName="text-content" jcr:primaryType="nt:unstructured" text="Story Paragraph font"/>
+                    <style1 cssName="color-black" jcr:primaryType="nt:unstructured" text="Black"/>
+                    <style2 cssName="color-white" jcr:primaryType="nt:unstructured" text="White"/>
+                    <style3 cssName="color-light" jcr:primaryType="nt:unstructured" text="Light"/>
+                    <style4 cssName="color-blue" jcr:primaryType="nt:unstructured" text="Blue"/>
+                    <style5 cssName="color-light-blue" jcr:primaryType="nt:unstructured" text="Light Blue"/>
+                    <style6 cssName="color-light-light-blue" jcr:primaryType="nt:unstructured" text="Light Light Blue"/>
+                    <style7 cssName="color-light-yellow" jcr:primaryType="nt:unstructured" text="Light Yellow"/>
+                    <style8 cssName="color-gray" jcr:primaryType="nt:unstructured" text="Gray"/>
+                    <style9 cssName="color-light-gray" jcr:primaryType="nt:unstructured" text="Light Gray"/>
+                    <style10 cssName="color-red" jcr:primaryType="nt:unstructured" text="Red"/>
+                    <style11 cssName="color-bright-red" jcr:primaryType="nt:unstructured" text="Bright Red"/>
+                    <style12 cssName="color-orange" jcr:primaryType="nt:unstructured" text="Orange"/>
+                    <style13 cssName="color-green" jcr:primaryType="nt:unstructured" text="Green"/>
+                  </styles>
+                </styles>
+                <subsuperscript features="[subscript,superscript]" jcr:primaryType="nt:unstructured"/>
+                <undo features="[undo,redo]" jcr:primaryType="nt:unstructured" maxUndoSteps="50"/>
+              </rtePlugins>
+            </text>
+          </items>
+        </ParagraphBlock>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>

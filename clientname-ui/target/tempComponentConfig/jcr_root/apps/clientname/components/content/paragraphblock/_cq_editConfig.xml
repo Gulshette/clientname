@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" cq:dialogMode="floating" cq:disableTargeting="{Boolean}false" cq:emptyText="Drag components or assets here" cq:inherit="{Boolean}false" cq:layout="editbar" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:EditConfig">
+  <cq:listeners afterdelete="REFRESH_PAGE" afteredit="REFRESH_PAGE" afterinsert="REFRESH_PAGE" jcr:primaryType="cq:EditListenersConfig"/>
+  <cq:inplaceEditing active="{Boolean}true" configPath="../../dialog/items/tabs/items/ParagraphBlock/items/text" editorType="text" jcr:primaryType="cq:InplaceEditingConfig" title="cq:inplaceEditing"/>
+</jcr:root>
