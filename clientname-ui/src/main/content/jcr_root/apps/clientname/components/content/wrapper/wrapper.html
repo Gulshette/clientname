@@ -1,0 +1,45 @@
+<sly data-sly-use.wrapperData="com.clientname.components.content.wrapper.Wrapper">
+    <sly data-sly-test="${wrapperData.wrapper =='container'}">
+    <div class="container">
+        <div data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!isEditMode}"></div>
+    </div>
+    </sly>
+    <sly data-sly-test="${wrapperData.wrapper == 'wthi-menu-block'}">
+    <div class="wthi-menu-block">
+        <div class="container">
+            <div data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!isEditMode}"></div>
+        </div>
+    </div>
+    </sly>
+    <sly data-sly-test="${wrapperData.wrapper == 'wthi-container'}">
+        <div class="wthi-container">
+            <div data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!isEditMode}"></div>
+        </div>
+    </sly>
+    <sly data-sly-test="${wrapperData.wrapper == 'full-widt-container'}">
+        <div class="full-widt-container">
+            <div data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!isEditMode}"></div>
+        </div>
+    </sly>
+    <sly data-sly-test="${wrapperData.wrapper == 'episode-container clearfix'}">
+        <div class="episode-container clearfix">
+            <div data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!isEditMode}"></div>
+        </div>
+    </sly>
+    <sly data-sly-test="${wrapperData.wrapper == 'episode-wrapper full-width'}">
+        <div class="episode-wrapper full-width">
+            <div data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!isEditMode}"></div>
+        </div>
+    </sly>
+    <sly data-sly-test="${wrapperData.wrapper == 'other-episode-block'}">
+        <div class="other-episode-block">
+            <div class="episode-wrapper">
+                <div data-sly-resource="${'par' @ resourceType='wcm/foundation/components/parsys'}" data-sly-unwrap="${!isEditMode}"></div>
+            </div>
+        </div>
+    </sly>
+</sly>
+<p data-sly-test="${!isPresent && wcmmode.edit}"
+   class="cq-placeholder"
+   data-emptytext="DragDrop Components Here!!!">
+</p>

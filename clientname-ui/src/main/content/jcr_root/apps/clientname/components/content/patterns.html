@@ -1,0 +1,9 @@
+<template data-sly-template.unconfigured="${@ show, component, message}">
+    <div class="component-unconfigured" data-sly-test="${!show && wcmmode.edit}">
+        <div class="content">
+            <p><strong>${component}</strong></p>
+            <p>${message ? message : 'This component has not been configured.'}</p>
+            <p class="small text-muted">This message will only appear in edit mode.</p>
+        </div>
+    </div>
+</template>

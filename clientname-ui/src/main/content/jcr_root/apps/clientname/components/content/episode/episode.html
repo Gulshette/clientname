@@ -1,0 +1,20 @@
+<sly data-sly-use.episodeData="com.clientname.components.content.episode.Episode" />
+<sly data-sly-use.patterns="/apps/clientname/components/content/patterns.html"/>
+<sly data-sly-call="${patterns.unconfigured @ show=episodeData.image, component='Episode Component', message = 'The Episode component has not been configured.  Please ensure you have an episode image authored.'}"/>
+<!-- watch Episode starts-->
+        <div class="episode-item">
+            <div class="episode-heading">
+                <span data-sly-test="${episodeData.episodeTitle}" class="episode-no">${episodeData.episodeTitle} </span>
+            </div>
+            <div class="image-wrapper">
+                <img data-sly-test="${episodeData.image}" class="episode-image" src="${episodeData.image}" alt="Image" />
+            </div>
+            <p class="episode-info" data-sly-test="${episodeData.episodeDescription}">
+                ${episodeData.episodeDescription}
+            </p>
+            <div class="btn-block">
+                <a class="cust-btn-link" href="${episodeData.episodeButtonLink}" data-sly-test="${episodeData.episodeButtonText}">${episodeData.episodeButtonText}</a>
+            </div>
+        </div>
+
+<!-- watch Episode ends-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="Episode component" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <Episodecomponent jcr:primaryType="cq:Widget" title="Episode component">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <episodeTitle allowBlank="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the episode title" fieldLabel="Episode Title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./episodeTitle" xtype="textfield"/>
+            <image allowBlank="{Boolean}false" allowUpload="{Boolean}false" ddGroups="[media]" disableFlush="{Boolean}false" disableInfo="{Boolean}false" disableZoom="{Boolean}false" disabled="{Boolean}false" fieldDescription="Select the image for the episode" fieldLabel="Episode image" fileNameParameter="./image/fileName" fileReferenceParameter="./image/fileReference" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" label="Episode image" name="./image/file" requestSuffix="/image.img.png" tab="{Boolean}false" uploadUrl="/tmp/upload/*" xtype="html5smartimage"/>
+            <episodeDescription allowBlank="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the episode description" fieldLabel="Episode description" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./episodeDescription" xtype="textarea"/>
+            <episodeButtonText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldDescription="Enter the episode button label text" fieldLabel="Button label text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./episodeButtonText" xtype="textfield"/>
+            <episodeButtonLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldDescription="Enter the episode description" fieldLabel="Episode button link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./episodeButtonLink" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+          </items>
+        </Episodecomponent>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>
