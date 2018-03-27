@@ -3,7 +3,7 @@
   <items jcr:primaryType="cq:WidgetCollection">
     <tabs jcr:primaryType="cq:TabPanel">
       <items jcr:primaryType="cq:WidgetCollection">
-        <Column-1 jcr:primaryType="cq:Widget" title="Column-1">
+        <Tab-1 jcr:primaryType="cq:Widget" title="Tab-1">
           <items jcr:primaryType="cq:WidgetCollection">
             <newsletter allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="News letter text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./newsletter" xtype="textfield"/>
             <colourQuotient allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Colour Quotient text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./colourQuotient" xtype="textfield"/>
@@ -11,55 +11,55 @@
               <fieldConfigs jcr:primaryType="cq:WidgetCollection">
                 <linkText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Link Text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="linkText" xtype="textfield"/>
                 <pathLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Path Link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="pathLink" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
-                <imgPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imgPath" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <image allowBlank="{Boolean}true" allowUpload="{Boolean}false" ddGroups="[media]" disableFlush="{Boolean}false" disableInfo="{Boolean}false" disableZoom="{Boolean}false" disabled="{Boolean}false" fieldLabel="Image" fileNameParameter="/fileName" fileReferenceParameter="/fileReference" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" label="Image" name="/file" requestSuffix=".img.png" tab="{Boolean}false" uploadUrl="/tmp/upload/*" xtype="html5smartimage"/>
               </fieldConfigs>
             </socialLinkData>
           </items>
-        </Column-1>
-        <Column-2 jcr:primaryType="cq:Widget" title="Column-2">
+        </Tab-1>
+        <Tab-2 jcr:primaryType="cq:Widget" title="Tab-2">
           <items jcr:primaryType="cq:WidgetCollection">
             <textLinkData allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Text and Link Data" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./textLinkData" prefix="./" xtype="multicompositefield">
               <fieldConfigs jcr:primaryType="cq:WidgetCollection">
                 <linkText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Link Text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="linkText" xtype="textfield"/>
                 <pathLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Path Link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="pathLink" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
-                <imgPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imgPath" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <image allowBlank="{Boolean}true" allowUpload="{Boolean}false" ddGroups="[media]" disableFlush="{Boolean}false" disableInfo="{Boolean}false" disableZoom="{Boolean}false" disabled="{Boolean}false" fieldLabel="Image" fileNameParameter="/fileName" fileReferenceParameter="/fileReference" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" label="Image" name="/file" requestSuffix=".img.png" tab="{Boolean}false" uploadUrl="/tmp/upload/*" xtype="html5smartimage"/>
               </fieldConfigs>
             </textLinkData>
             <faqTextLinkData allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Coloumn 2 Text and Link Data" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./faqTextLinkData" prefix="./" xtype="multicompositefield">
               <fieldConfigs jcr:primaryType="cq:WidgetCollection">
                 <linkText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Link Text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="linkText" xtype="textfield"/>
                 <pathLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Path Link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="pathLink" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
-                <imgPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imgPath" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <image allowBlank="{Boolean}true" allowUpload="{Boolean}false" ddGroups="[media]" disableFlush="{Boolean}false" disableInfo="{Boolean}false" disableZoom="{Boolean}false" disabled="{Boolean}false" fieldLabel="Image" fileNameParameter="/fileName" fileReferenceParameter="/fileReference" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" label="Image" name="/file" requestSuffix=".img.png" tab="{Boolean}false" uploadUrl="/tmp/upload/*" xtype="html5smartimage"/>
               </fieldConfigs>
             </faqTextLinkData>
             <downloadTextLinkData allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Coloumn 3 Text and Link Data" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./downloadTextLinkData" prefix="./" xtype="multicompositefield">
               <fieldConfigs jcr:primaryType="cq:WidgetCollection">
                 <linkText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Link Text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="linkText" xtype="textfield"/>
                 <pathLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Path Link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="pathLink" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
-                <imgPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imgPath" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <image allowBlank="{Boolean}true" allowUpload="{Boolean}false" ddGroups="[media]" disableFlush="{Boolean}false" disableInfo="{Boolean}false" disableZoom="{Boolean}false" disabled="{Boolean}false" fieldLabel="Image" fileNameParameter="/fileName" fileReferenceParameter="/fileReference" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" label="Image" name="/file" requestSuffix=".img.png" tab="{Boolean}false" uploadUrl="/tmp/upload/*" xtype="html5smartimage"/>
               </fieldConfigs>
             </downloadTextLinkData>
             <requestTextLinkData allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Coloumn 4 Text and Link Data" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./requestTextLinkData" prefix="./" xtype="multicompositefield">
               <fieldConfigs jcr:primaryType="cq:WidgetCollection">
                 <linkText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Link Text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="linkText" xtype="textfield"/>
                 <pathLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Path Link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="pathLink" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
-                <imgPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imgPath" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <image allowBlank="{Boolean}true" allowUpload="{Boolean}false" ddGroups="[media]" disableFlush="{Boolean}false" disableInfo="{Boolean}false" disableZoom="{Boolean}false" disabled="{Boolean}false" fieldLabel="Image" fileNameParameter="/fileName" fileReferenceParameter="/fileReference" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" label="Image" name="/file" requestSuffix=".img.png" tab="{Boolean}false" uploadUrl="/tmp/upload/*" xtype="html5smartimage"/>
               </fieldConfigs>
             </requestTextLinkData>
           </items>
-        </Column-2>
-        <Column-3 jcr:primaryType="cq:Widget" title="Column-3">
+        </Tab-2>
+        <Tab-3 jcr:primaryType="cq:Widget" title="Tab-3">
           <items jcr:primaryType="cq:WidgetCollection">
             <title allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./title" xtype="textfield"/>
             <columnTextLinkData allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Text and Link Data" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./columnTextLinkData" prefix="./" xtype="multicompositefield">
               <fieldConfigs jcr:primaryType="cq:WidgetCollection">
                 <linkText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Link Text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="linkText" xtype="textfield"/>
                 <pathLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Path Link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="pathLink" parBrowse="{Boolean}false" rootPath="/content/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
-                <imgPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="imgPath" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+                <image allowBlank="{Boolean}true" allowUpload="{Boolean}false" ddGroups="[media]" disableFlush="{Boolean}false" disableInfo="{Boolean}false" disableZoom="{Boolean}false" disabled="{Boolean}false" fieldLabel="Image" fileNameParameter="/fileName" fileReferenceParameter="/fileReference" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" label="Image" name="/file" requestSuffix=".img.png" tab="{Boolean}false" uploadUrl="/tmp/upload/*" xtype="html5smartimage"/>
               </fieldConfigs>
             </columnTextLinkData>
           </items>
-        </Column-3>
+        </Tab-3>
       </items>
     </tabs>
   </items>

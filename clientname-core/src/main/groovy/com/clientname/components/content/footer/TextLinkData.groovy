@@ -3,6 +3,7 @@ package com.clientname.components.content.footer
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.TextField
+import com.clientname.annotations.DialogSelfImageField
 import com.icfolson.aem.library.api.link.Link
 import com.icfolson.aem.library.core.components.AbstractComponent
 import com.icfolson.aem.library.models.annotations.LinkInject
@@ -24,12 +25,18 @@ class TextLinkData extends AbstractComponent{
 
     @DialogField(fieldLabel = "Path Link",ranking = 2D)
     @PathField(rootPath = "/content/")
-    @Inject
-    String pathLink
-
-    @DialogField(fieldLabel = "Image", ranking = 3D)
+    String getPathLink() {
+        getAsHrefInherited("pathLink").or("")
+    }
+    /*@DialogField(fieldLabel = "Image", ranking = 3D)
     @PathField(rootPath = "/content/dam")
     @Inject
-    String imgPath
+    String imgPath*/
+
+    @DialogField(fieldLabel = "Image", ranking = 3D)
+    @DialogSelfImageField
+    String getImage(){
+        imageSource.or("")
+    }
 
 }
