@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1522068027295
+Bnd-LastModified: 1522071291854
 Build-Jdk: 1.8.0_161
 Built-By: icf2025814
 Bundle-Description: The AEM Library provides a sturdy foundation for boo
