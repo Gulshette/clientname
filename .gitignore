@@ -9,8 +9,26 @@
 target/
 
 # IntelliJ
-.idea
+*.idea
 *.iml
+*.iws
 
 # Node
 node_modules
+
+
+#Misc
+*.class
+*.groovy
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+
+#Directories
+target/
+bin/
