@@ -50,6 +50,7 @@ com/clientname/components/content/subheader/SubHeader$_getLinkItem1_closure2.cla
 com/clientname/components/content/video/Video.class
 com/clientname/components/content/watchseason/GalleryData.class
 com/clientname/constants/NilayaConstant.class
+com/clientname/annotations/DialogSmartImageField.class
 com/clientname/components/content/footer/TextLinkData.class
 com/clientname/components/content/footer/Footer.class
 com/clientname/components/content/header/HeaderMainStripPojo.class
