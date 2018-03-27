@@ -49,6 +49,7 @@ com/clientname/constants/NilayaConstant.class
 com/clientname/components/content/footer/TextLinkData.class
 com/clientname/components/content/footer/Footer.class
 com/clientname/components/content/header/HeaderMainStripPojo.class
+com/clientname/components/content/paragraphblock/ParagraphBlock.class
 com/clientname/components/content/footer/Footer$_getFaqTextLinkData_closure3.class
 com/clientname/components/content/subheader/SubHeader.class
 com/clientname/constants/NilayaComponentGroup.class
