@@ -3,14 +3,14 @@ package com.clientname.components.content.carousel
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Listener
 import com.citytechinc.cq.component.annotations.widgets.TextField
-import com.clientname.annotations.AEMComponent
+import com.clientname.annotations.NilayaComponent
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
 import com.icfolson.aem.multicompositeaddon.widget.MultiCompositeField
 
 import javax.inject.Inject
 
-@AEMComponent(value = "carousel",
+@NilayaComponent(value = "carousel",
         name="carousel",
         group = "ap-nilaya",
         listeners = [

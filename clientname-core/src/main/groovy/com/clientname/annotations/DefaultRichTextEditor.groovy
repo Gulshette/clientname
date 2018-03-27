@@ -15,7 +15,7 @@ import groovy.transform.AnnotationCollector
         format = @Format,
         justify = @Justify,
         lists = @Lists,
-        // edit = @Edit,
+        edit = @Edit,
         undo = @Undo,
         findreplace = @FindReplace,
         paraformat = [
@@ -31,19 +31,7 @@ import groovy.transform.AnnotationCollector
         misctools = @MiscTools(sourceedit = false),
         subsuperscript = @SubSuperscript,
         styles = [
-                @Style(cssName = "color-black", text = "Black"),
-                @Style(cssName = "color-white", text = "White"),
-                @Style(cssName = "color-light", text = "Light"),
-                @Style(cssName = "color-blue", text = "Blue"),
-                @Style(cssName = "color-light-blue", text = "Light Blue"),
-                @Style(cssName = "color-light-light-blue", text = "Light Light Blue"),
-                @Style(cssName = "color-light-yellow", text = "Light Yellow"),
-                @Style(cssName = "color-gray", text = "Gray"),
-                @Style(cssName = "color-light-gray", text = "Light Gray"),
-                @Style(cssName = "color-red", text = "Red"),
-                @Style(cssName = "color-bright-red", text = "Bright Red"),
-                @Style(cssName = "color-orange", text = "Orange"),
-                @Style(cssName = "color-green", text = "Green")
+                @Style(cssName = "text-content", text = "Story Paragraph font")
         ],
         uiSettings = @UISettings(inline = @ToolbarConfig(
                 toolbars = [
