@@ -1,0 +1,40 @@
+<sly data-sly-use.menuData="com.clientname.components.content.menublock.MenuBlock">
+    <div class="wthi-menu-block">
+        <div class="container">
+            <ul class="menu-list">
+                <sly data-sly-list="${menuData.menuBlockFields}">
+                    <li class="list">
+                        <sly data-sly-test="${item.openLinkIn == 'samewindow'}">
+                            <a href="${item.urlPath.href}" class="list-text">${item.linkText}</a>
+                        </sly>
+                        <sly data-sly-test="${item.openLinkIn == 'newwindow'}">
+                            <a href="${item.urlPath.href}" class="list-text" target='_blank'>${item.linkText}</a>
+                        </sly>
+                    </li>
+                </sly>
+                <li class="list manu-list-desktop">
+                    <div class="dropdown">
+                        <a class="list-text dropdown-toggle" type="button" id="dropdownMenuButton"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expande="" d="false" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" data-sly-list="${menuData.dropdownFields}">
+                            <sly data-sly-test="${item.openLinkIn == 'samewindow'}">
+                                <a class="list-text" href="${item.dropdownUrl.href}">${item.dropdownLinkText}</a>
+                            </sly>
+                            <sly data-sly-test="${item.openLinkIn == 'newwindow'}">
+                                <a class="list-text" href="${item.dropdownUrl.href}"
+                                   target='_blank'>${item.dropdownLinkText}</a>
+                            </sly>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</sly>
+
+<p data-sly-test="${wcmmode.edit}"
+   class="cq-placeholder"
+   data-emptytext="Please Configure the Menu Block Component Here!!!">
+</p>
