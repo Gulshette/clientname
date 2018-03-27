@@ -3,6 +3,7 @@ com/clientname/components/content/carousel/Carousel$_getTestimonialData_closure1
 com/clientname/components/content/watchseason/WatchSeason$_getGalleryData_closure1.class
 com/clientname/components/content/subheader/SubHeader$_getCountryName_closure4.class
 com/clientname/annotations/DialogLinkTarget.class
+com/clientname/components/content/styleguidedesign/StyleGuideShadePojo.class
 com/clientname/annotations/NilayaCardComponent.class
 com/clientname/components/content/carousel/TestimonialData.class
 com/clientname/components/content/watchseason/WatchSeason.class
@@ -14,6 +15,7 @@ com/clientname/components/content/footer/Footer$_getTextLinkData_closure2.class
 com/clientname/components/content/hello/Hello.class
 com/clientname/components/content/footer/Footer$_getSocialLinkData_closure1.class
 com/clientname/components/content/carousel/Carousel.class
+com/clientname/annotations/ColorsSelection.class
 com/clientname/components/content/subheader/CountryName.class
 com/clientname/components/content/styleguide/StyleGuideData.class
 com/clientname/components/content/header/HeaderMainStripPojo$_headerSecondLevelStripPojo_closure1.class
@@ -32,6 +34,7 @@ com/clientname/components/content/subheader/SocialIcons.class
 com/clientname/components/content/fullwidthbanner/FullWidthBanner.class
 com/clientname/annotations/DialogSwitchField.class
 com/clientname/annotations/MultiCompositeFieldItem.class
+com/clientname/components/content/styleguidedesign/StyleGuideDesign$_getStyleGuideShadePojo_closure1.class
 com/clientname/annotations/DialogSelfImageField.class
 com/clientname/components/content/styleguide/StyleGuide$_getStyleGuideData_closure1.class
 com/clientname/components/content/header/Header.class
@@ -44,6 +47,8 @@ com/clientname/constants/NilayaConstant.class
 com/clientname/components/content/footer/TextLinkData.class
 com/clientname/components/content/footer/Footer.class
 com/clientname/components/content/header/HeaderMainStripPojo.class
+com/clientname/components/content/styleguidedesign/StyleGuideDesign.class
 com/clientname/components/content/footer/Footer$_getFaqTextLinkData_closure3.class
 com/clientname/components/content/subheader/SubHeader.class
+com/clientname/components/content/watchvideosection/WatchVideo.class
 com/clientname/constants/NilayaComponentGroup.class

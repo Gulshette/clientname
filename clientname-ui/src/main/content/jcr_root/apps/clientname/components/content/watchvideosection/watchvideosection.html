@@ -1,0 +1,22 @@
+<!-- Watch Video Section starts-->
+
+<div class="video-watch-section" data-sly-use.data="com.clientname.components.content.watchvideosection.WatchVideo">
+    <div class="video-details">
+        <div class="video-image">
+            <a href="${data.videoLink}">
+                <img src="${data.img}">
+            </a>
+        </div>
+        <div class="video-desc">
+            <h3>
+                ${data.title @context='html'}
+            </h3>
+            <p class="">
+                ${data.description @context='html'}
+            </p>
+            <a href="${data.videoLink}" class="btn-style-wthi">${data.btnText @context='html'}</a>
+        </div>
+    </div>
+</div>
+<div data-sly-test.edit="${wcmmode.edit}" class="author-component">Watch Video Section</div>
+<!-- Watch Video Section ends-->

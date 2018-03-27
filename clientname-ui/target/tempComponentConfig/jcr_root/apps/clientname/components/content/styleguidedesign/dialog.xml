@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="Style Guide Design" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <StyleGuideDesign jcr:primaryType="cq:Widget" title="Style Guide Design">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <title allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./title" xtype="textfield"/>
+            <subTitle allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Sub title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./subTitle" xtype="textfield"/>
+            <imgPath allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Image path" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./imgPath" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <imgLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Redirection path" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./imgLink" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <buttonText allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Button text" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./buttonText" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <buttonLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Button link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./buttonLink" parBrowse="{Boolean}false" rootPath="/" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <styleGuideShadePojo allowBlank="{Boolean}true" baseName="item_" disabled="{Boolean}false" fieldLabel="Configure color shades" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" matchBaseName="{Boolean}false" name="./styleGuideShadePojo" prefix="./" xtype="multicompositefield">
+              <fieldConfigs jcr:primaryType="cq:WidgetCollection">
+                <colour allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Select the color" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="colour" type="select" xtype="selection">
+                  <options jcr:primaryType="cq:WidgetCollection">
+                    <option0 jcr:primaryType="nt:unstructured" text="Light Green" value="style1"/>
+                    <option1 jcr:primaryType="nt:unstructured" text="Dark Green" value="style2"/>
+                    <option2 jcr:primaryType="nt:unstructured" text="Gold" value="style3"/>
+                    <option3 jcr:primaryType="nt:unstructured" text="Light Yellow" value="style4"/>
+                    <option4 jcr:primaryType="nt:unstructured" text="Lavender" value="style5"/>
+                    <option5 jcr:primaryType="nt:unstructured" text="Darkmagenta" value="style6"/>
+                    <option6 jcr:primaryType="nt:unstructured" text="Darkcyna" value="style7"/>
+                    <option7 jcr:primaryType="nt:unstructured" text="Light Steel Blue" value="style8"/>
+                  </options>
+                </colour>
+                <shadeTitle allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Shade title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="shadeTitle" xtype="textfield"/>
+                <shadeNumber allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Shade number" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="shadeNumber" xtype="textfield"/>
+              </fieldConfigs>
+            </styleGuideShadePojo>
+          </items>
+        </StyleGuideDesign>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>

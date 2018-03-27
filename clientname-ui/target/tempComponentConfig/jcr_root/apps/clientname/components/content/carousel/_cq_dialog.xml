@@ -13,6 +13,7 @@
                 <fields jcr:primaryType="nt:unstructured">
                   <description cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Testimonial text" jcr:primaryType="nt:unstructured" name="description" renderReadOnly="{Boolean}true" required="{Boolean}false" resize="none" rows="5" sling:resourceType="granite/ui/components/foundation/form/textarea"/>
                   <btntext cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Testimonial button text" jcr:primaryType="nt:unstructured" name="btntext" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
+                  <btnlink cq:hideOnEdit="{Boolean}false" cq:showOnCreate="{Boolean}true" disabled="{Boolean}false" fieldLabel="Testimonial button link" jcr:primaryType="nt:unstructured" name="btnlink" renderReadOnly="{Boolean}true" required="{Boolean}false" sling:resourceType="granite/ui/components/foundation/form/textfield"/>
                 </fields>
               </testimonialData>
             </items>

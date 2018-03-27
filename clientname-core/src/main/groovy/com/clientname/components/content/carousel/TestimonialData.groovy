@@ -24,4 +24,9 @@ class TestimonialData extends AbstractComponent{
     @Inject
     String btntext
 
+    @DialogField(fieldLabel = "Testimonial button link",ranking = 3D)
+    @TextField
+    @Inject
+    String btnlink
+
 }

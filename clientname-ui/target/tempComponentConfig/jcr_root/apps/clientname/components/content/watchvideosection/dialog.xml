@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jcr:root activeTab="0" allowBlank="{Boolean}false" disabled="{Boolean}false" fileName="dialog.xml" hideLabel="{Boolean}false" xmlns:jcr="http://www.jcp.org/jcr/1.0" jcr:primaryType="cq:Dialog" title="Watch Video Section" xtype="dialog">
+  <items jcr:primaryType="cq:WidgetCollection">
+    <tabs jcr:primaryType="cq:TabPanel">
+      <items jcr:primaryType="cq:WidgetCollection">
+        <WatchVideoSection jcr:primaryType="cq:Widget" title="Watch Video Section">
+          <items jcr:primaryType="cq:WidgetCollection">
+            <title allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Title" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./title" xtype="textfield"/>
+            <description allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Description" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./description" xtype="textarea"/>
+            <img allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Video Image" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./img" parBrowse="{Boolean}false" rootPath="/content/dam" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+            <btnText allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Button text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="./btnText" xtype="textfield"/>
+            <videoLink allowBlank="{Boolean}true" disabled="{Boolean}false" escapeAmp="{Boolean}false" fieldLabel="Video link" hideLabel="{Boolean}false" hideTrigger="{Boolean}false" jcr:primaryType="cq:Widget" name="./videoLink" parBrowse="{Boolean}false" rootPath="/content" rootTitle="Websites" showTitleInTree="{Boolean}true" xtype="pathfield"/>
+          </items>
+        </WatchVideoSection>
+      </items>
+    </tabs>
+  </items>
+</jcr:root>

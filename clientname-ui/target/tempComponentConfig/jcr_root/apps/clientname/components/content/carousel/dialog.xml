@@ -10,6 +10,7 @@
               <fieldConfigs jcr:primaryType="cq:WidgetCollection">
                 <description allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Testimonial text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="description" xtype="textarea"/>
                 <btntext allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Testimonial button text" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="btntext" xtype="textfield"/>
+                <btnlink allowBlank="{Boolean}true" disabled="{Boolean}false" fieldLabel="Testimonial button link" hideLabel="{Boolean}false" jcr:primaryType="cq:Widget" name="btnlink" xtype="textfield"/>
               </fieldConfigs>
             </testimonialData>
           </items>
