@@ -12,6 +12,7 @@ com/clientname/components/content/footer/Footer$_getDownloadTextLinkData_closure
 com/clientname/components/content/subheader/LinkItem.class
 com/clientname/components/content/footer/Footer$_getTextLinkData_closure2.class
 com/clientname/components/content/hello/Hello.class
+com/clientname/components/content/wrapper/Wrapper.class
 com/clientname/components/content/footer/Footer$_getSocialLinkData_closure1.class
 com/clientname/components/content/carousel/Carousel.class
 com/clientname/components/content/subheader/CountryName.class
@@ -24,7 +25,6 @@ com/clientname/annotations/DefaultRichTextEditor.class
 com/clientname/components/content/Hello.class
 com/clientname/components/content/midheader/MidHeader.class
 com/clientname/components/content/subheader/SubHeader$_getLinkItem2_closure3.class
-com/clientname/annotations/AEMComponent.class
 com/clientname/components/content/footer/Footer$_getColumnTextLinkData_closure6.class
 com/clientname/annotations/NilayaComponent.class
 com/clientname/annotations/DialogPathField.class
