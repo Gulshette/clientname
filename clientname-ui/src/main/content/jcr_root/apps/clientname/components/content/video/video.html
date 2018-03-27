@@ -1,0 +1,22 @@
+<!-- Video banner Section  change the value of input hidden field for video configurations-->
+<sly data-sly-use.videoData="com.clientname.components.content.video.Video" />
+<sly data-sly-use.patterns="/apps/clientname/components/content/patterns.html"/>
+<sly data-sly-call="${patterns.unconfigured @ show=videoData.videoPath, component='Video Component', message = 'The Video component has not been configured.  Please ensure you have an video url authored.'}"/>
+<div class="video-innerpage">
+    <div class="video-section">
+        <div class="video-iframe" data-sly-test="${videoData.videoPath}">
+            <input type="hidden" name="youtubeiframe" value="${videoData.videoPath}"/>
+        </div>
+        <!-- use dam images for FB Twitter etc...-->
+        <div data-sly-test="${videoData.socialShareData}" class="video-share">
+            <ul class="socl-lnks2" data-sly-list.link="${videoData.socialShareData}">
+                <li>
+                    <a href="${link.socialLink}" target="_blank">
+                        <img src="${link.socialIconImage}" alt="${link.iconTitle}">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Video banner Section ends here-->

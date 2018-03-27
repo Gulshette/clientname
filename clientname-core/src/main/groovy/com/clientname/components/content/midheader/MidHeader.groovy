@@ -2,7 +2,6 @@ package com.clientname.components.content.midheader
 
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Listener
-import com.citytechinc.cq.component.annotations.Tab
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.clientname.annotations.NilayaComponent
 import com.clientname.constants.NilayaComponentGroup
@@ -11,6 +10,7 @@ import com.icfolson.aem.library.api.link.Link
 import com.icfolson.aem.library.core.components.AbstractComponent
 
 import javax.inject.Inject
+
 @NilayaComponent(value = "midheader", name="midheader", group = NilayaComponentGroup.AP_NILAYA, listeners = [
         @Listener(name = "afteredit", value = "REFRESH_PAGE"),
         @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
