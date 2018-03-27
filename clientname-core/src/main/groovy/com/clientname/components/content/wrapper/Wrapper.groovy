@@ -3,7 +3,7 @@ package com.clientname.components.content.wrapper
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Option
 import com.citytechinc.cq.component.annotations.widgets.Selection
-import com.clientname.annotations.AEMComponent
+import com.clientname.annotations.NilayaComponent
 import com.clientname.constants.NilayaComponentGroup
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
@@ -12,7 +12,7 @@ import javax.inject.Inject
 /**
  * Created by icf2025840 on 23/03/18.
  */
-@AEMComponent(value = "Wrapper component",
+@NilayaComponent(value = "Wrapper component",
         name="wrapper",
         group = NilayaComponentGroup.AP_NILAYA)
 @AutoInstantiate
@@ -30,5 +30,4 @@ class Wrapper extends AbstractComponent{
     ])
     @Inject
     String wrapper
-
 }

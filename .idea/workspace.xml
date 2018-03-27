@@ -2,154 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25121b0a-5db5-4f6f-ba86-9f83ab4f1cd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/episode/Episode.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/episodewrapper/EpisodeWrapper.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/gallery/Gallery.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/video/SocialIcons.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/video/Video.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/wrapper/Wrapper.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/episode/episode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/gallery/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/patterns.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/video/video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/wrapper/wrapper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css/pattern.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clientname-core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/fullwidthbanner/FullWidthBanner.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/fullwidthbanner/fullwidthbanner.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/target/clientname-core-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/clientname-core/target/clientname-core-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/360X240.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/360X240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/Screen Shot 2018-03-02 at 3.26.23 PM.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/Screen Shot 2018-03-02 at 3.26.23 PM.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/bannerImage.jpg" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/bannerImage.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/gallery1.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/gallery1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/gallery2.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/gallery2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/like-view.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/like-view.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/like-view2.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/like-view2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/mandira.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/mandira.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/play-button.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/play-button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/quote-close-icon.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/quote-close-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/quote-open-icon.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/quote-open-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/risk-free-icon.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/risk-free-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/s2-bannerImage.jpg" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/s2-bannerImage.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/styleimage.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/styleimage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/wthi-logo.png" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/wthi-logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/target/clientname-ui-1.0.0-SNAPSHOT.zip" afterPath="$PROJECT_DIR$/clientname-ui/target/clientname-ui-1.0.0-SNAPSHOT.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_adobe_aem_uber_jar_apis_6_3_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_adobe_aem_uber_jar_apis_6_3_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_citytechinc_cq_cq_component_plugin_cq_component_annotations_5_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_citytechinc_cq_cq_component_plugin_cq_component_annotations_5_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_library_aem_library_api_9_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_library_aem_library_api_9_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_library_aem_library_core_9_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_library_aem_library_core_9_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_library_aem_library_core_tests_9_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_library_aem_library_core_tests_9_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_library_aem_library_models_9_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_library_aem_library_models_9_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_multicomposite_addon_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_icfolson_aem_multicomposite_addon_3_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jcr_jcr_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jcr_jcr_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_apache_felix_scr_annotations_1_12_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_felix_org_apache_felix_scr_annotations_1_12_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_17_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_17_1_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_compendium_5_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_compendium_5_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_core_5_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_core_5_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_service_component_annotations_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_service_component_annotations_1_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_service_metatype_annotations_1_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_osgi_org_osgi_service_metatype_annotations_1_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/clientname-core.iml" afterPath="$PROJECT_DIR$/clientname-core/clientname-core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/pom.xml" afterPath="$PROJECT_DIR$/clientname-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/AEMComponent.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/AEMComponent.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DefaultRichTextEditor.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DefaultRichTextEditor.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogImageField.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogImageField.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogLinkTarget.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogLinkTarget.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogPathField.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogPathField.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogSelfImageField.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogSelfImageField.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogSwitchField.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogSwitchField.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/MultiCompositeFieldItem.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/MultiCompositeFieldItem.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaCardComponent.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaCardComponent.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaComponent.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaComponent.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/carousel/Carousel.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/carousel/Carousel.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/carousel/TestimonialData.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/carousel/TestimonialData.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/footer/Footer.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/footer/Footer.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/footer/TextLinkData.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/footer/TextLinkData.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/groovytest/GroovyTest.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/groovytest/GroovyTest.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/Header.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/Header.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/hello/Hello.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/hello/Hello.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/midheader/MidHeader.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/midheader/MidHeader.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/styleguide/StyleGuide.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/styleguide/StyleGuide.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/styleguide/StyleGuideData.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/styleguide/StyleGuideData.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/CountryName.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/CountryName.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/LinkItem.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/LinkItem.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SocialIcons.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SocialIcons.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SubHeader.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SubHeader.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/walkaround/WalkAround.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/walkaround/WalkAround.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/watchseason/GalleryData.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/watchseason/GalleryData.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/watchseason/WatchSeason.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/watchseason/WatchSeason.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/constants/NilayaComponentGroup.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/constants/NilayaComponentGroup.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/constants/NilayaConstant.groovy" afterPath="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/constants/NilayaConstant.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/java/com/clientname/components/content/Hello.java" afterPath="$PROJECT_DIR$/clientname-core/src/main/java/com/clientname/components/content/Hello.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/main.iml" afterPath="$PROJECT_DIR$/clientname-core/src/main/main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/resources/checkstyle.xml" afterPath="$PROJECT_DIR$/clientname-core/src/main/resources/checkstyle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/resources/eclipse-formatter.xml" afterPath="$PROJECT_DIR$/clientname-core/src/main/resources/eclipse-formatter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/src/main/resources/pmd.xml" afterPath="$PROJECT_DIR$/clientname-core/src/main/resources/pmd.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/clientname-core/target/classes/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/clientname-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/clientname-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/clientname-ui.iml" afterPath="$PROJECT_DIR$/clientname-ui/clientname-ui.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/pom.xml" afterPath="$PROJECT_DIR$/clientname-ui/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/assembly/zip.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/assembly/zip.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/META-INF/vault/config.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/META-INF/vault/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/META-INF/vault/filter.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/META-INF/vault/filter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/META-INF/vault/properties.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/META-INF/vault/properties.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/carousel/carousel.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/carousel/carousel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/footer/footer.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/footer/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/hello/hello.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/hello/hello.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/styleguide/styleguide.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/styleguide/styleguide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/subheader/subheader.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/subheader/subheader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/walkaround/walkaround.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/walkaround/walkaround.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/watchseason/watchseason.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/watchseason/watchseason.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/body.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/body.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/clientlibs.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/clientlibs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/content.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/footer.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/footerclientlibs.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/footerclientlibs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/head.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/metadata.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/metadata.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/page.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/global/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/global/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/global/content.html" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/global/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/templates/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/templates/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/templates/global/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/templates/global/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/.content.xml" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css.txt" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css/WhereTheHeartIs.css" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css/WhereTheHeartIs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css/lytebox.css" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css/lytebox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/quote-close-icon.svg" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/quote-close-icon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/quote-open-icon.svg" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/images/quote-open-icon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/js/custom.js" afterPath="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientname.iml" afterPath="$PROJECT_DIR$/clientname.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/clientname-ui/target/" />
@@ -161,41 +24,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="clientname-master" />
+    <favorites_list name="clientname" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Wrapper.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/wrapper/Wrapper.groovy">
+      <file leaf-file-name="AEMComponent.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/AEMComponent.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+<<<<<<< HEAD
+            <state relative-caret-position="10">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+=======
+            <state relative-caret-position="180">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wrapper.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/wrapper/wrapper.html">
+      <file leaf-file-name="SubHeader.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SubHeader.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="82" selection-start-line="0" selection-start-column="82" selection-end-line="0" selection-end-column="82" />
+            <state relative-caret-position="60">
+              <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styleguide.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/styleguide/styleguide.html">
+      <file leaf-file-name="NilayaComponentGroup.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/constants/NilayaComponentGroup.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+            <state relative-caret-position="180">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subheader.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/subheader/subheader.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -204,68 +82,62 @@
       <file leaf-file-name="midheader.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/Header.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MidHeader.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/midheader/MidHeader.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeaderMainStripPojo.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeaderSecondLevelStripPojo.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="38" column="52" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/video/video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profiles_settings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="69" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/page.html">
+        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="episode.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/episode/episode.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientlibs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/clientlibs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+=======
+            <state relative-caret-position="135">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
               <folding />
             </state>
           </provider>
@@ -294,13 +166,18 @@
       <find>headerList</find>
       <find>title</find>
       <find>title2</find>
-      <find>headerSecondLevelStripPojo</find>
       <find>headerMainStripPojo</find>
+      <find>headerSecondLevelStripPojo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -327,22 +204,6 @@
         <option value="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy" />
         <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html" />
         <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/episodewrapper/EpisodeWrapper.groovy" />
-        <option value="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/video/Video.groovy" />
-        <option value="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/gallery/Gallery.groovy" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/patterns.html" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css/pattern.css" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css.txt" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/video/video.html" />
-        <option value="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogImageField.groovy" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/episodewrapper/episodewrapper.html" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/gallery/gallery.html" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/global/content.html" />
-        <option value="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/episode/Episode.groovy" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/episode/episode.html" />
-        <option value="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/wrapper/Wrapper.groovy" />
-        <option value="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/wrapper/wrapper.html" />
       </list>
     </option>
   </component>
@@ -358,11 +219,15 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="713" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -389,32 +254,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -424,29 +289,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -468,11 +315,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -498,11 +345,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -532,11 +379,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -570,11 +417,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -612,11 +459,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -658,11 +505,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -680,40 +527,158 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="clientname-core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clientname-master" />
+              <option name="myItemId" value="clientname" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="clientname-core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="copyright" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientname" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -722,22 +687,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../McDonaldsSVN" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="wra&#9;FILE&#9;file:///Users/apple/Documents/Project/clientname-master/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/wrapper/wrapper.html&#10;galle&#9;FILE&#9;file:///Users/apple/Documents/Project/clientname-master/clientname-core/src/main/groovy/com/clientname/components/content/gallery/Gallery.groovy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.clientname.components.content.wrapper" />
+      <recent name="com.clientname.components.content.fullwidthbanner" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content" />
       <recent name="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content" />
+      <recent name="$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content" />
       <recent name="$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname" />
     </key>
   </component>
@@ -774,8 +736,13 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -794,8 +761,13 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -989,25 +961,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1025,42 +978,43 @@
       <workItem from="1521786350357" duration="1719000" />
       <workItem from="1521799314344" duration="10130000" />
       <workItem from="1521954112963" duration="16630000" />
-      <workItem from="1522038887698" duration="11330000" />
+      <workItem from="1522038887698" duration="13231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39809000" />
+    <option name="totallyTimeSpent" value="41710000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="713" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2784091" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46386555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784091" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="IntelliVault" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1095,6 +1049,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1103,7 +1065,222 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/subheader/subheader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/Header.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/midheader/MidHeader.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/Header.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/subheader/subheader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SocialIcons.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/CountryName.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SubHeader.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/LinkItem.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/subheader/subheader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/MultiCompositeFieldItem.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogLinkTarget.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogPathField.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogSwitchField.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DefaultRichTextEditor.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogSelfImageField.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogImageField.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaCardComponent.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/constants/NilayaConstant.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/footerclientlibs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1114,6 +1291,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1135,6 +1319,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,6 +1327,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1149,6 +1335,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,67 +1343,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="102" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SubHeader.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/subheader/subheader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/Header.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/groovytest/GroovyTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/episode/clientlibs/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/AEMComponent.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+=======
     <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaComponent.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1227,266 +1378,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/midheader/MidHeader.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/episodewrapper/EpisodeWrapper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/gallery/Gallery.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="e#51#110#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="675">
+          <caret line="55" column="24" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="24" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css/pattern.css">
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/NilayaComponent.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+<<<<<<< HEAD
+        <state relative-caret-position="180">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
+        <state relative-caret-position="390">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="35" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/etc/designs/clientname/clientlibs/css.txt">
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/subheader/subheader.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogPathField.groovy">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="735">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+=======
         <state relative-caret-position="105">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/DialogImageField.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/patterns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/gallery/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/MultiCompositeFieldItem.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/video/Video.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/video/SocialIcons.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/global/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/global/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/body.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/clientlibs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="102" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/footerclientlibs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/episode/Episode.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="e#51#110#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/episodewrapper/episodewrapper.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/episode/episode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/wrapper/Wrapper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/styleguide/styleguide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/midheader/midheader.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+<<<<<<< HEAD
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+=======
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/Header.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="315">
+          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="42" />
+=======
+        <state relative-caret-position="735">
+          <caret line="49" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/midheader/MidHeader.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="675">
+          <caret line="55" column="24" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="24" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderMainStripPojo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="390">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="35" />
+=======
+        <state relative-caret-position="315">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="42" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/header/HeaderSecondLevelStripPojo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="105">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="52" />
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+=======
+        <state relative-caret-position="226">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/header/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="69" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/wrapper/wrapper.html">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/page/base-template/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="82" selection-start-line="0" selection-start-column="82" selection-end-line="0" selection-end-column="82" />
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/clientname-ui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientname-ui/src/main/content/jcr_root/apps/clientname/components/content/video/video.html">
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/annotations/AEMComponent.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="180">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/components/content/subheader/SubHeader.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientname-core/src/main/groovy/com/clientname/constants/NilayaComponentGroup.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+>>>>>>> 256b6607411528c43678437ce65c7a1dc9726710
           <folding />
         </state>
       </provider>
@@ -1494,81 +1517,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>OSGi</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>clientname</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.adobe.aem:uber-jar:apis:6.3.1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
