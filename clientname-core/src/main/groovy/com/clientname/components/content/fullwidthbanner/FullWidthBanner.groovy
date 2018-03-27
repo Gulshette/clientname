@@ -5,7 +5,7 @@ import com.citytechinc.cq.component.annotations.Listener
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.TextArea
 import com.citytechinc.cq.component.annotations.widgets.TextField
-import com.clientname.annotations.AEMComponent
+import com.clientname.annotations.NilayaComponent
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
 
@@ -15,7 +15,7 @@ import javax.inject.Inject
  * Created by icf2025295 on 21/03/18.
  */
 
-@AEMComponent(value = "Full Width Banner",
+@NilayaComponent(value = "Full Width Banner",
 name = "fullwidthbanner",
 group = "ap-nilaya",
         listeners = [
