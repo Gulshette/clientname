@@ -3,9 +3,6 @@
 *.iml
 *.iws
 
-#Misc
-*.class
-*.groovy
 
 # Mac
 .DS_Store
