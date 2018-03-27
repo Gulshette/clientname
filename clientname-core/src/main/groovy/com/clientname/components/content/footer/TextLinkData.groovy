@@ -28,15 +28,15 @@ class TextLinkData extends AbstractComponent{
     String getPathLink() {
         getAsHrefInherited("pathLink").or("")
     }
-    /*@DialogField(fieldLabel = "Image", ranking = 3D)
+    @DialogField(fieldLabel = "Image", ranking = 3D)
     @PathField(rootPath = "/content/dam")
     @Inject
-    String imgPath*/
+    String imgPath
 
-    @DialogField(fieldLabel = "Image", ranking = 3D)
+   /* @DialogField(fieldLabel = "Image", ranking = 3D)
     @DialogSelfImageField
     String getImage(){
         imageSource.or("")
     }
-
+*/
 }
