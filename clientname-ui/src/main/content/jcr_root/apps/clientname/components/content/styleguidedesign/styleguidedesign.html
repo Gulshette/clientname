@@ -1,0 +1,56 @@
+<!-- Style Guide New Design strts -->
+<sly data-sly-use.styleguide="com.clientname.components.content.styleguidedesign.StyleGuideDesign">
+    <div class="newstyleguideshare-block">
+        <h2 class="heading-text">
+            ${styleguide.title @context='html'}
+        </h2>
+        <p class="newstyleguideshare-title">${styleguide.subTitle @context='html'}</p>
+        <div class="colorselect-wrapper">
+            <div class="styleimage-section">
+                <a href="${styleguide.imgLink}">
+                    <img src="${styleguide.imgPath}">
+                </a>
+            </div>
+            <div class="stylecolor-section ">
+                <div class="style-boxes">
+                    <ul class="style-boxes-list" data-sly-list="${styleguide.styleGuideShadePojo}">
+                        <li>
+                            <a href="">
+                                <div class="color-scheme-box ${item.colour @context='styleToken'}" ></div>
+                                <div class="color-scheme-details">
+                                    <p>
+                                        ${item.shadeNumber}
+                                    </p>
+                                    <p>
+                                        ${item.shadeTitle}
+                                    </p>
+                                </div>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/* <div class="stylelike-view">
+                    <div class="like-view">
+                        <div class="like">
+                            <span class="icon"></span>543
+                        </div>
+                        <div class="share">
+                            <a class="social-share-button">
+                                <span class="icon shareIcon" id="shareIcon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div> */-->
+            </div>
+            <div class="btn-block explore-shades">
+                <a href="${styleguide.buttonLink}" class="cust-btn-link">${styleguide.buttonText}</a>
+            </div>
+
+        </div>
+
+    </div>
+</sly>
+<div data-sly-test.edit="${wcmmode.edit}" class="author-component">Style Guide Design</div>
+
+<!-- Style Guide New Design Ends -->

@@ -4,18 +4,14 @@ import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Listener
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.clientname.annotations.NilayaComponent
-import com.clientname.constants.NilayaComponentGroup
+import com.clientname.constants.NilayaConstant
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.api.link.Link
 import com.icfolson.aem.library.core.components.AbstractComponent
 
 import javax.inject.Inject
 
-@NilayaComponent(value = "midheader", name="midheader", group = NilayaComponentGroup.AP_NILAYA, listeners = [
-        @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-        @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-        @Listener(name = "afterdelete", value = "REFRESH_PAGE")
-])
+@NilayaComponent(value = "midheader", name="midheader", group = NilayaConstant.GROUP_NAME)
 @AutoInstantiate
 class MidHeader extends AbstractComponent{
 
