@@ -1,0 +1,52 @@
+<sly data-sly-use.tabsInfo="com.clientname.components.content.tabscomponent.TabsComponent">
+    <div class="container">
+        <div class="wthi-header">
+            <div class="season-section">
+                <div class="season-dropdown hidden-lg">
+                    <select id="season-dropdown" class="selectpicker bs-select-hidden">
+                        <option>season 1</option>
+                        <option>season 2</option>
+                    </select><div class="btn-group bootstrap-select">
+                    <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" data-id="season-dropdown" title="season 1">
+                        <span class="filter-option pull-left">season 1</span>&nbsp;
+                        <span class="caret"></span>
+                    </button>
+                    <div class="dropdown-menu open">
+                        <ul class="dropdown-menu inner" role="menu">
+                            <li data-original-index="0" class="selected">
+                                <a tabindex="0" class="" style="" data-tokens="null">
+                                    <span class="text">season 1</span>
+                                    <span class="glyphicon glyphicon-ok check-mark"></span>
+                                </a>
+                            </li>
+                            <li data-original-index="1">
+                                <a tabindex="0" class="" style="" data-tokens="null">
+                                    <span class="text">season 2</span>
+                                    <span class="glyphicon glyphicon-ok check-mark"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                <ul class="list-inline season-list hidden-xs hidden-sm hidden-md">
+                    <sly data-sly-list="${tabsInfo.tabFields}">
+                        <li class="list">
+                            <sly data-sly-test="${item.openLinkIn == 'samewindow'}">
+                                <a class="active" href="${item.urlPath.href}">${item.linkText}</a>
+                            </sly>
+                            <sly data-sly-test="${item.openLinkIn == 'newwindow'}">
+                                <a class="active" href="${item.urlPath.href}" target='_blank'>${item.linkText}</a>
+                            </sly>
+                        </li>
+                    </sly>
+                </ul>
+            </div>
+            <div class="wthi-logo-wrapper">
+                <a class="logo" href="javascript:void()">
+                    <img src="${tabsInfo.logo}" alt="${tabsInfo.altText}">
+                </a>
+            </div>
+        </div>
+    </div>
+</sly>
