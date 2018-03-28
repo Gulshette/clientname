@@ -6,18 +6,15 @@ import com.citytechinc.cq.component.annotations.Tab
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.NilayaComponent
-import com.clientname.constants.NilayaComponentGroup
+import com.clientname.constants.NilayaConstant
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
 import com.icfolson.aem.multicompositeaddon.widget.MultiCompositeField
 
 import javax.inject.Inject
 
-@NilayaComponent(value = "subheader", name="subheader", group = NilayaComponentGroup.AP_NILAYA, listeners = [
-        @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-        @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-        @Listener(name = "afterdelete", value = "REFRESH_PAGE")
-],
+@NilayaComponent(value = "subheader", name="subheader", group = NilayaConstant.GROUP_NAME,
+
         tabs = [
                 @Tab(title = "Top Links tab"),
                 @Tab(title = "Other Division tab"),
