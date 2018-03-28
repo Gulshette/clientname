@@ -21,7 +21,6 @@ class Wrapper extends AbstractComponent{
     @DialogField(fieldLabel = "Wrapper Classes", ranking = 3D)
     @Selection(type = Selection.SELECT, options = [
             @Option(text = "Container", value = "container"),
-            @Option(text = "Menu-block", value = "wthi-menu-block"),
             @Option(text ="Home-Page",value= "wthi-container"),
             @Option(text ="Full-Width-Container of Hompepage",value = "full-widt-container"),
             @Option(text ="Episode-main-container",value= "episode-container clearfix"),
