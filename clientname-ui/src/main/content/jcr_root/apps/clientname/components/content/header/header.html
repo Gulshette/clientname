@@ -1,9 +1,9 @@
 <sly data-sly-test="${wcmmode.edit}" data-sly-use.authoringUtils="/libs/wcm/foundation/components/utils/AuthoringUtils.js"/>
 
 <header class="main-header" data-sly-use.header="com.clientname.components.content.header.Header">
-    <sly data-sly-resource="${@path='/content/clientname/jcr:content/subheader', resourceType='clientname/components/content/subheader'}"></sly>
+    <sly data-sly-resource="${@path='subheader', resourceType='clientname/components/content/subheader'}"></sly>
     <div class="fix-secn">
-        <sly data-sly-resource="${@path='/content/clientname/jcr:content/midheader', resourceType='clientname/components/content/midheader'}"></sly>
+        <sly data-sly-resource="${@path='midheader', resourceType='clientname/components/content/midheader'}"></sly>
         <div class="hdr-btm clearfix">
             <div class="container">
                 <div class="row">
