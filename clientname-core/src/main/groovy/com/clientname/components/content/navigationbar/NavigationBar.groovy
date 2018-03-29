@@ -1,50 +1,33 @@
 package com.clientname.components.content.navigationbar
 
+import com.citytechinc.cq.component.annotations.DialogField
+import com.citytechinc.cq.component.annotations.widgets.PathField
+import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.icfolson.aem.library.api.page.PageDecorator
+import com.icfolson.aem.library.core.components.AbstractComponent
+import org.apache.sling.api.resource.Resource
+import org.apache.sling.models.annotations.DefaultInjectionStrategy
+import org.apache.sling.models.annotations.Model
+
+import javax.inject.Inject
 
 /**
  * Created by icf2025840 on 28/03/18.
  */
-class NavigationBar {
-    @Delegate
-    PageDecorator pageDecorator
+@Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+class NavigationBar  extends AbstractComponent{
+    
+    @Inject
+    String linkText
 
-    NavigationBar(PageDecorator page) {
-        this.pageDecorator = page
+    @Inject
+    String pathLink
 
-        def navMap = [:]
-        def navContainer = []
-
-        pageDecorator.children.withIndex().findAll { level2 ->
-            navContainer = []
-            if (!level2.first.isHideInNav()) {
-                navContainer.add(level2.first.path)
-                level2.first.children.findAll { level3 ->
-                    if (!level3.isHideInNav()) {
-                        navContainer.add(level3.path)
-                    }
-                }
-                navMap.put(level2.second, navContainer)
-            }
-        }
-        def flattenList = navMap.values().flatten()
-
-        if (flattenList) {
-            String pagePathAtMidIndex = flattenList.get((int) (flattenList.size() / 2) - 1)
-            navMap.each { key, childContainer ->
-                childContainer.any { path ->
-                    if (path == pagePathAtMidIndex) {
-                        mainNavForkIndexValue = key as Integer
-                        return true
-                    }
-                }
-            }
-        }
+    String getPathLink() {
+        getAsHrefInherited("pathLink").or("")
     }
 
-    List<NavigationBar> getChildren() {
-        pageDecorator.getChildren(true).collect { childPage ->
-            new NavigationBar(childPage)
-        }
+    String getLinkText() {
+        return linkText
     }
 }
