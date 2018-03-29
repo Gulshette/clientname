@@ -11,10 +11,14 @@ import com.clientname.annotations.DialogImageField
 import com.clientname.annotations.NilayaComponent
 import com.clientname.constants.NilayaComponentGroup
 import com.clientname.constants.NilayaConstant
+import com.day.cq.dam.api.Asset
+import com.day.cq.dam.api.DamConstants
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
+import org.apache.sling.api.resource.ResourceResolver
 import org.apache.sling.models.annotations.Default
 
+import javax.annotation.PostConstruct
 import javax.inject.Inject
 /**
  * Created by Krupa on 20/03/18.
@@ -65,11 +69,31 @@ class Episode extends AbstractComponent{
     @Default(values = "")
     String episodeOpenLinkIn
 
+    @Inject
+    private ResourceResolver resourceResolver
+
+    def getEpisodeImgTitle() {
+        return episodeImgTitle
+    }
+
+    def episodeImgTitle
+
     String getEpisodeOpenLinkIn(){
         return  episodeOpenLinkIn
     }
 
     String getEpisodeButtonLink() {
         return episodeButtonLink
+    }
+
+    @PostConstruct
+    void init(){
+        if(getImage()){
+            def imgAsset = resourceResolver.getResource(getImage()).adaptTo(Asset.class)
+            episodeImgTitle = imgAsset.getMetadataValue(DamConstants.DC_TITLE)
+            if(episodeImgTitle){
+                episodeImgTitle = NilayaConstant.IMAGE
+            }
+        }
     }
 }

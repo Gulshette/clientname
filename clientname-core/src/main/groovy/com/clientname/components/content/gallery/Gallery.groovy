@@ -8,8 +8,12 @@ import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.NilayaComponent
 import com.clientname.constants.NilayaComponentGroup
 import com.clientname.constants.NilayaConstant
+import com.day.cq.dam.api.Asset
+import com.day.cq.dam.api.DamConstants
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
+import org.apache.sling.api.resource.ResourceResolver
 
+import javax.annotation.PostConstruct
 import javax.inject.Inject
 /**
  * Created by Krupa on 21/03/18.
@@ -42,5 +46,37 @@ class Gallery {
     @PathField
     @Inject
     private String[] galleryList
+
+    def getImageItemList() {
+        return imageItemList
+    }
+    def imageItemList
+
+    @Inject
+    private ResourceResolver resourceResolver
+
+    @PostConstruct
+    void init(){
+        if(galleryList) {
+            imageItemList = new ArrayList<ImageItem>()
+            galleryList.each { imagePath ->
+                ImageItem imageItem = new ImageItem()
+                if(!imagePath.isEmpty()) {
+                    def imageresource = resourceResolver.getResource(imagePath)
+                    def imgDamResource = imageresource.adaptTo(Asset.class)
+                    def imgTitle = imgDamResource.getMetadataValue(DamConstants.DC_TITLE)
+
+                    if(imgTitle){
+                        imageItem.setImagePath(imagePath)
+                        imageItem.setImageTitle(imgTitle)
+                    }else{
+                        imageItem.setImagePath(imagePath)
+                        imageItem.setImageTitle("Image")
+                    }
+                }
+                imageItemList.add(imageItem)
+            }
+        }
+    }
 
 }

@@ -13,4 +13,6 @@ final class NilayaConstant {
     public static final String AFTER_INSERT = "afterinsert"
 
     public static final String AFTER_DELETE = "afterinsert"
+
+    public static final String IMAGE = "Image"
 }
