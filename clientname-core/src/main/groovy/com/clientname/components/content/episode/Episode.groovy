@@ -2,14 +2,18 @@ package com.clientname.components.content.episode
 
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Listener
+import com.citytechinc.cq.component.annotations.Option
 import com.citytechinc.cq.component.annotations.widgets.PathField
+import com.citytechinc.cq.component.annotations.widgets.Selection
 import com.citytechinc.cq.component.annotations.widgets.TextArea
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.DialogImageField
 import com.clientname.annotations.NilayaComponent
 import com.clientname.constants.NilayaComponentGroup
+import com.clientname.constants.NilayaConstant
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
+import org.apache.sling.models.annotations.Default
 
 import javax.inject.Inject
 /**
@@ -19,9 +23,9 @@ import javax.inject.Inject
         name="episode",
         group = NilayaComponentGroup.AP_NILAYA,
         listeners = [
-                @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-                @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-                @Listener(name = "afterdelete", value = "REFRESH_PAGE")
+                @Listener(name = NilayaConstant.AFTER_EDIT, value = NilayaConstant.REFRESH_PAGE),
+                @Listener(name = NilayaConstant.AFTER_INSERT, value = NilayaConstant.REFRESH_PAGE),
+                @Listener(name = NilayaConstant.AFTER_DELETE, value = NilayaConstant.REFRESH_PAGE)
         ])
 @AutoInstantiate
 class Episode extends AbstractComponent{
@@ -30,14 +34,6 @@ class Episode extends AbstractComponent{
     @TextField
     @Inject
     String episodeTitle
-
-    String getEpisodeButtonLink() {
-        return episodeButtonLink
-    }
-
-    String getEpisodeAlignment() {
-        return episodeAlignment
-    }
 
     @DialogField(fieldDescription = "Select the image for the episode", required = true, fieldLabel = "Episode image" ,ranking = 2D)
     @DialogImageField(title = "Drag & Drop Image")
@@ -59,4 +55,21 @@ class Episode extends AbstractComponent{
     @PathField
     @Inject
     String episodeButtonLink
+
+    @DialogField(fieldLabel = "Open Link In", ranking = 6D)
+    @Selection(options = [
+            @Option(text = "Same Window", value = "samewindow", selected = true),
+            @Option(text = "New Window", value = "newwindow")
+    ], type="select")
+    @Inject
+    @Default(values = "")
+    String episodeOpenLinkIn
+
+    String getEpisodeOpenLinkIn(){
+        return  episodeOpenLinkIn
+    }
+
+    String getEpisodeButtonLink() {
+        return episodeButtonLink
+    }
 }

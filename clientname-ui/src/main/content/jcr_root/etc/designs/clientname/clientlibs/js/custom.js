@@ -1,16 +1,10 @@
 
 		$(document).ready(function(e) {
-			var val1=$('.video-iframe input[name="youtubeiframe"]').val()+"?rel=0&modestbranding=1&showinfo=0";
     		var val2=$('.walk-around-iframe input[name="walkaroundiframe"]').val();
-			$('.video-iframe').append('<iframe id="youtubeframe" width="1130" height="614" src="'+ val1 +'" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+
 		    $('.walk-around-iframe').append('<iframe id="walk-around-iframe" width="1130" height="614" src="'+ val2 +'" allowfullscreen></iframe>');
 
-		    $('.js-preview-image').on('click', function(){
-		    	var imgUrl = $(this).find('img').attr('src');
-		    	console.log("imgUrl:"+imgUrl);
-	    		$('#preview_image').attr('src',imgUrl);
-	    		$('.previewModal').modal('show');
-		    });
+
 
 		    $('.js-read-more').on('click',function(){
 		    	$('.title-paragrap-block.inner-page').toggleClass('autoHeight');

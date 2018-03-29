@@ -7,6 +7,7 @@ import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.NilayaComponent
 import com.clientname.constants.NilayaComponentGroup
+import com.clientname.constants.NilayaConstant
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 
 import javax.inject.Inject
@@ -17,9 +18,9 @@ import javax.inject.Inject
         name="gallery",
         group = NilayaComponentGroup.AP_NILAYA,
         listeners = [
-                @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-                @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-                @Listener(name = "afterdelete", value = "REFRESH_PAGE")
+                @Listener(name = NilayaConstant.AFTER_EDIT, value = NilayaConstant.REFRESH_PAGE),
+                @Listener(name = NilayaConstant.AFTER_INSERT, value = NilayaConstant.REFRESH_PAGE),
+                @Listener(name = NilayaConstant.AFTER_DELETE, value = NilayaConstant.REFRESH_PAGE)
         ])
 @AutoInstantiate
 class Gallery {
