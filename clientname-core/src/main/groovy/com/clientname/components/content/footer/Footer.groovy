@@ -49,6 +49,7 @@ class Footer extends AbstractComponent{
             child.resource.adaptTo(TextLinkData)
         }
     }
+
     @DialogField(fieldLabel = "Coloumn 2 Text and Link Data",ranking = 2D,tab = 2)
     @MultiCompositeField
     List<TextLinkData> getFaqTextLinkData() {
@@ -56,6 +57,7 @@ class Footer extends AbstractComponent{
             child.resource.adaptTo(TextLinkData)
         }
     }
+
     @DialogField(fieldLabel = "Coloumn 3 Text and Link Data",ranking = 3D,tab = 2)
     @MultiCompositeField
     List<TextLinkData> getDownloadTextLinkData() {
@@ -63,6 +65,7 @@ class Footer extends AbstractComponent{
             child.resource.adaptTo(TextLinkData)
         }
     }
+
     @DialogField(fieldLabel = "Coloumn 4 Text and Link Data",ranking = 4D,tab = 2)
     @MultiCompositeField
     List<TextLinkData> getRequestTextLinkData() {
