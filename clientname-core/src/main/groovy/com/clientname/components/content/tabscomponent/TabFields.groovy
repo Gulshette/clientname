@@ -1,11 +1,11 @@
 package com.clientname.components.content.tabscomponent
 
+import com.citytechinc.cq.component.annotations.widgets.Switch
+import com.icfolson.aem.library.models.annotations.InheritInject
 import org.apache.sling.api.resource.Resource
 import org.apache.sling.models.annotations.Model
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Option
-import com.citytechinc.cq.component.annotations.widgets.CheckBox
-import com.citytechinc.cq.component.annotations.widgets.Hidden
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.Selection
 import com.citytechinc.cq.component.annotations.widgets.TextField
@@ -21,6 +21,7 @@ import javax.inject.Inject
  */
 @Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 class TabFields extends AbstractComponent{
+
     @DialogField(fieldLabel = "Link Text",ranking = 1D)
     @TextField
     @Inject
@@ -41,5 +42,17 @@ class TabFields extends AbstractComponent{
     String openLinkIn
     String getOpenLink(){
         return  openLinkIn
+    }
+
+    @DialogField(fieldLabel = "Active/Inactive", ranking = 3D)
+    @Selection(options = [
+            @Option(text = "Active", value = "active", selected = true),
+            @Option(text = "Inactive", value = "inactive")
+    ], type="select")
+    @Inject
+    @Default(values = "")
+    String activeState
+    String getActiveState(){
+        return  activeState
     }
 }

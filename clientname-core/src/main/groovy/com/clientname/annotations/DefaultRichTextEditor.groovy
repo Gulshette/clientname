@@ -45,16 +45,7 @@ import groovy.transform.AnnotationCollector
                         "#styles",
                         ToolbarConfig.LINKS_MODIFYLINK,
                         ToolbarConfig.LINKS_UNLINK,
-                        //"-",
                         ToolbarConfig.MISCTOOLS_SPECIALCHARS,
-                        /*
-                        "-",
-                        ToolbarConfig.EDIT_CUT,
-                        ToolbarConfig.EDIT_COPY,
-                        ToolbarConfig.EDIT_PASTE_DEFAULT,
-                        ToolbarConfig.EDIT_PASTE_PLAINTEXT,
-                        ToolbarConfig.EDIT_PASTE_WORDHTML,
-                        */
                         "-",
                         ToolbarConfig.FINDREPLACE_FIND,
                         ToolbarConfig.FINDREPLACE_REPLACE,

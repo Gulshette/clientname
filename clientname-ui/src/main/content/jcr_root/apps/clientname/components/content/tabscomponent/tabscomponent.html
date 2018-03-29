@@ -32,10 +32,16 @@
                 <ul class="list-inline season-list hidden-xs hidden-sm hidden-md">
                     <sly data-sly-list="${tabsInfo.tabFields}">
                         <li class="list">
-                            <sly data-sly-test="${item.openLinkIn == 'samewindow'}">
+                            <sly data-sly-test="${item.openLinkIn == 'samewindow' && item.activeState == 'active'}">
                                 <a class="active" href="${item.urlPath.href}">${item.linkText}</a>
                             </sly>
-                            <sly data-sly-test="${item.openLinkIn == 'newwindow'}">
+                            <sly data-sly-test="${item.openLinkIn == 'samewindow' && item.activeState != 'active'}">
+                                <a class="" href="${item.urlPath.href}">${item.linkText}</a>
+                            </sly>
+                            <sly data-sly-test="${item.openLinkIn == 'newwindow' && item.activeState == 'active'}">
+                                <a class="active" href="${item.urlPath.href}" target='_blank'>${item.linkText}</a>
+                            </sly>
+                            <sly data-sly-test="${item.openLinkIn == 'newwindow' && item.activeState != 'active'}">
                                 <a class="active" href="${item.urlPath.href}" target='_blank'>${item.linkText}</a>
                             </sly>
                         </li>

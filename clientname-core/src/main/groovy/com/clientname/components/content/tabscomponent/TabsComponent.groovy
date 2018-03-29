@@ -1,7 +1,6 @@
 package com.clientname.components.content.tabscomponent
 
 import com.citytechinc.cq.component.annotations.DialogField
-import com.citytechinc.cq.component.annotations.Listener
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.NilayaComponent
@@ -14,19 +13,13 @@ import javax.inject.Inject
 /**
  * Created by icf2025295 on 28/03/18.
  */
-@NilayaComponent(value = "Tabs Component",
-        name = "tabscomponent",
-        group = "ap-nilaya",
-        listeners = [
-                @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-                @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-                @Listener(name = "afterdelete", value = "REFRESH_PAGE")
-        ])
+@NilayaComponent(value = "Tabs Component", name = "tabscomponent",
+        group = "ap-nilaya")
 @AutoInstantiate
 class TabsComponent extends AbstractComponent {
 
     @DialogField(fieldLabel = "Logo",ranking = 1D,required = true)
-    @PathField(rootPath = "/content/dam")
+    @PathField(rootPath = "/content/dam/clientname")
     @Inject logo;
 
     @DialogField(fieldLabel = "Alt Text",ranking = 2D,required = true)

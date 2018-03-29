@@ -15,19 +15,13 @@ import javax.inject.Inject
  * Created by icf2025295 on 21/03/18.
  */
 
-@NilayaComponent(value = "Full Width Banner",
-name = "fullwidthbanner",
-group = "ap-nilaya",
-        listeners = [
-                @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-                @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-                @Listener(name = "afterdelete", value = "REFRESH_PAGE")
-        ])
+@NilayaComponent(value = "Full Width Banner", name = "fullwidthbanner", group = "ap-nilaya")
+
 @AutoInstantiate
 class FullWidthBanner extends AbstractComponent {
 
     @DialogField(fieldLabel = "Background Image",ranking = 1D,required = true)
-    @PathField(rootPath = "/content/dam")
+    @PathField(rootPath = "/content/dam/clientname")
     @Inject bgimage;
 
     @DialogField(fieldLabel = "Title",ranking = 2D)
