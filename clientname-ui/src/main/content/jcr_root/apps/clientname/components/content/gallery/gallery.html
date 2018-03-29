@@ -4,8 +4,8 @@
 <sly data-sly-call="${patterns.unconfigured @ show=galleryData.galleryList, component='Gallery Component', message = 'The gallery component has not been configured.  Please ensure you have an gallery images are authored.'}"/>
 <div class="innerpagegallery-section">
     <h3 class="heading" data-sly-test="${galleryData.galleryTitle}">${galleryData.galleryTitle}</h3>
-    <div class="gallery-section" data-sly-list.gallerylink="${galleryData.galleryList}">
 
+    <div data-sly-test="${galleryData.galleryList}" class="gallery-section" data-sly-list.gallerylink="${galleryData.galleryList}">
         <div class="innerpagegallery-block">
             <a data-lyte-options="group:orion2" class="innerpagegallery-link js-preview-image" href="javascript:void(0)" data-title="ss">
                 <img class="innerpagegallery-image" src="${gallerylink}" alt="Image" />
