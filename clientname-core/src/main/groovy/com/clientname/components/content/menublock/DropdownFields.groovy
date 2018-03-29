@@ -6,6 +6,7 @@ import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.Selection
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.icfolson.aem.library.api.link.Link
+import org.apache.sling.api.resource.Resource
 import org.apache.sling.models.annotations.Default
 import org.apache.sling.models.annotations.DefaultInjectionStrategy
 import org.apache.sling.models.annotations.Model
@@ -15,7 +16,7 @@ import javax.inject.Inject
 /**
  * Created by icf2025295 on 21/03/18.
  */
-@Model(adaptables = org.apache.sling.api.resource.Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+@Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 class DropdownFields {
     @DialogField(fieldLabel = "Dropdown URL",ranking = 1D)
     @PathField(rootPath = "/content/clientname")

@@ -1,7 +1,6 @@
 package com.clientname.components.content.paragraphblock
 
 import com.citytechinc.cq.component.annotations.DialogField
-import com.citytechinc.cq.component.annotations.Listener
 import com.citytechinc.cq.component.annotations.Option
 import com.citytechinc.cq.component.annotations.widgets.Selection
 import com.citytechinc.cq.component.annotations.widgets.TextField
@@ -15,12 +14,8 @@ import javax.inject.Inject
 @NilayaComponent(value = "Paragraph Block", inPlaceEditingEditorType = "text", inPlaceEditingActive = true,
         inPlaceEditingConfigPath = "../../dialog/items/tabs/items/ParagraphBlock/items/text",
         name="paragraphblock",
-        group = "ap-nilaya",
-        listeners = [
-                @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-                @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-                @Listener(name = "afterdelete", value = "REFRESH_PAGE")
-        ])
+        group = "ap-nilaya")
+
 @AutoInstantiate
 class ParagraphBlock extends AbstractComponent {
 
@@ -45,5 +40,5 @@ class ParagraphBlock extends AbstractComponent {
     @DialogField(fieldLabel = "Description", ranking = 3D)
     @DefaultRichTextEditor
     @Inject
-    String text
+    String text;
 }
