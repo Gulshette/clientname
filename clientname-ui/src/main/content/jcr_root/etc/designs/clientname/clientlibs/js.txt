@@ -14,4 +14,3 @@ jquery-ui.js
 main.js
 custom.js
 video.js
-gallery.js
