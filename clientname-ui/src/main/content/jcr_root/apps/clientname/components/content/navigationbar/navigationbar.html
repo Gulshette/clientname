@@ -1,6 +1,13 @@
-<div data-sly-use.navData="com.clientname.components.content.navigationbar.NavigationDetails">
+<div data-sly-use.navData="com.clientname.components.content.navigationbar.NavigationBar">
  MenuBar
     <ul data-sly-list.level1="${navData.mainNavPages}">
-        <li>${level1.navigationLink.title}</li>hi
+        <li>
+           <a href="{level1.navigationLink.path}">${level1.navigationLink.title}</a>
+        </li>
     </ul>
+    <!--<ul data-sly-list.level1="${navData.navigationLink}">
+        <li>
+            <a href="{level1.navigationLink.path}">${level1.navigationLink.title}</a>
+        </li>
+    </ul>-->
 </div>

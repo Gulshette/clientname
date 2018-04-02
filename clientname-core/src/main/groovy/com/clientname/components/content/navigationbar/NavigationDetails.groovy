@@ -1,36 +1,42 @@
 package com.clientname.components.content.navigationbar
 
-import com.citytechinc.cq.component.annotations.DialogField
-import com.citytechinc.cq.component.annotations.widgets.PathField
-import com.clientname.annotations.NilayaComponent
-import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.api.page.PageDecorator
-import com.icfolson.aem.library.core.components.AbstractComponent
-
-import javax.inject.Inject
 
 /**
- * Created by icf2025840 on 28/03/18.
+ * Created by icf2025840 on 29/03/18.
  */
-@NilayaComponent(value="NavigationBar",name="navigationbar")
-@AutoInstantiate
-class NavigationDetails extends AbstractComponent{
+class NavigationDetails {
 
-    @Inject
-    PageDecorator currentPage
 
-    @DialogField(fieldLabel = "Root Page", tab = 1, required = true)
-    @PathField(rootPath ="/content/clientname")
-    PageDecorator getRootPage() {
-        getAsPageInherited("rootPage").or(currentPage)
+    @Delegate
+    PageDecorator pageDecorator
+
+    int mainNavForkIndexValue = 0
+
+    NavigationDetails(PageDecorator page) {
+        this.pageDecorator = page
+
+        def navMap = [:]
+        def navContainer = []
+
+        pageDecorator.children.withIndex().findAll { level2 ->
+            navContainer = []
+            if (!level2.first.isHideInNav()) {
+                navContainer.add(level2.first.path)
+                level2.first.children.findAll { level3 ->
+                    if (!level3.isHideInNav()) {
+                        navContainer.add(level3.path)
+                    }
+                }
+                navMap.put(level2.second, navContainer)
+            }
+        }
+
     }
 
-
-    List<NavigationBar> getMainNavPages() {
-        getAsPageInherited("rootPage").or(currentPage.getChildren(true).collect) { level1 ->
-            level1.resource.adaptTo(NavigationBar)
+    List<NavigationDetails> getChildren() {
+        pageDecorator.getChildren(true).collect { childPage ->
+            new NavigationDetails(childPage)
         }
     }
-
-
 }

@@ -2,32 +2,44 @@ package com.clientname.components.content.navigationbar
 
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.widgets.PathField
-import com.citytechinc.cq.component.annotations.widgets.TextField
+import com.clientname.annotations.NilayaComponent
+import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
+import com.icfolson.aem.library.api.link.NavigationLink
 import com.icfolson.aem.library.api.page.PageDecorator
 import com.icfolson.aem.library.core.components.AbstractComponent
-import org.apache.sling.api.resource.Resource
-import org.apache.sling.models.annotations.DefaultInjectionStrategy
-import org.apache.sling.models.annotations.Model
 
 import javax.inject.Inject
 
 /**
  * Created by icf2025840 on 28/03/18.
  */
-@Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
-class NavigationBar  extends AbstractComponent{
-    
-    @Inject
-    String linkText
+@NilayaComponent(value="NavigationBar",name="navigationbar")
+@AutoInstantiate
+class NavigationBar extends AbstractComponent{
 
     @Inject
-    String pathLink
+    PageDecorator currentPage
 
-    String getPathLink() {
-        getAsHrefInherited("pathLink").or("")
+    @DialogField(fieldLabel = "Root Page", tab = 1, required = true)
+    @PathField(rootPath ="/content/clientname")
+    PageDecorator getRootPage() {
+        getAsPageInherited("rootPage").or(currentPage)
     }
 
-    String getLinkText() {
-        return linkText
+    List<NavigationDetails> getMainNavPages() {
+        getAsPageInherited("rootPage").or(currentPage).getChildren(true).collect { page ->
+            new NavigationDetails(page)
+        }
     }
+    /*List<NavigationLink> getNavigationLinks() {
+        def links = []
+        if (rootPage) {
+            links = rootPage.getChildren(GracoConstants.PREDICATE_ACTIVE_PAGES).collect { page ->
+                page.navigationLink
+            }
+        }
+        links
+    }*/
+
+
 }
