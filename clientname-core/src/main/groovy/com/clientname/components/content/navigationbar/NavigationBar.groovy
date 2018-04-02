@@ -13,15 +13,15 @@ import javax.inject.Inject
 /**
  * Created by icf2025840 on 28/03/18.
  */
-@NilayaComponent(value="NavigationBar",name="navigationbar")
+@NilayaComponent(value = "NavigationBar", name = "navigationbar")
 @AutoInstantiate
-class NavigationBar extends AbstractComponent{
+class NavigationBar extends AbstractComponent {
 
     @Inject
     PageDecorator currentPage
 
     @DialogField(fieldLabel = "Root Page", tab = 1, required = true)
-    @PathField(rootPath ="/content/clientname")
+    @PathField(rootPath = "/content/clientname")
     PageDecorator getRootPage() {
         getAsPageInherited("rootPage").or(currentPage)
     }
@@ -34,12 +34,13 @@ class NavigationBar extends AbstractComponent{
     /*List<NavigationLink> getNavigationLinks() {
         def links = []
         if (rootPage) {
-            links = rootPage.getChildren(GracoConstants.PREDICATE_ACTIVE_PAGES).collect { page ->
+            links = rootPage.getChildren().collect { page ->
                 page.navigationLink
             }
         }
         links
     }*/
+
 
 
 }

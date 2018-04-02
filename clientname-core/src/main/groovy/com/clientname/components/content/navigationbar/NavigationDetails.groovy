@@ -31,6 +31,19 @@ class NavigationDetails {
                 navMap.put(level2.second, navContainer)
             }
         }
+        def flattenList = navMap.values().flatten()
+
+        if (flattenList) {
+            String pagePathAtMidIndex = flattenList.get((int) (flattenList.size() / 2) - 1)
+            navMap.each { key, childContainer ->
+                childContainer.any { path ->
+                    if (path == pagePathAtMidIndex) {
+                        mainNavForkIndexValue = key as Integer
+                        return true
+                    }
+                }
+            }
+        }
 
     }
 
