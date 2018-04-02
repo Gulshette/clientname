@@ -1,0 +1,18 @@
+<div data-sly-use.navData="com.clientname.components.content.navigationbar.NavigationBar">
+    MenuBar
+    <ul data-sly-list="${navData.mainNavPages}">
+        <li>
+            <a href="${item.href}">${item.title}</a>
+
+            <ul data-sly-list.level2="${item.children}">
+                <a href="${level2.href}">${level2.title}</a>
+
+                <ul data-sly-list.level3="${level2.children}">
+                    <a href="${level3.href}">${level3.title}</a>
+                </ul>
+
+            </ul>
+
+        </li>
+    </ul>
+</div>
