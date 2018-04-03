@@ -17,6 +17,11 @@ class HeaderSecondLevelStripPojo {
     @Inject
     String smallIcon
 
+    @DialogField(fieldLabel = "Enter the alt text for the icon")
+    @TextField
+    @Inject
+    String altText
+
     @DialogField(fieldLabel = "enter the second level page title")
     @TextField
     @Inject
