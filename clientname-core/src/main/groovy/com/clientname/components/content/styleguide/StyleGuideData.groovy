@@ -16,13 +16,13 @@ import javax.inject.Inject
 @Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 class StyleGuideData  extends AbstractComponent{
 
-    @DialogField(fieldLabel = "SubTitle text",ranking = 1D)
+    @DialogField(fieldLabel = "Style Guide Text",ranking = 1D)
     @TextField
     @Inject
     String subTitle
 
 
-    @DialogField(fieldLabel = "Description",ranking = 2D)
+    @DialogField(fieldLabel = "Style Guide Description",ranking = 2D)
     @TextArea
     @Inject
     String description
