@@ -41,6 +41,7 @@
                         <div class="col-sm-6">
                             <ul class="ftr-links" data-sly-list="${footerData.textLinkData}">
                                 <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
+                                    // Using link builder generate target.
                                 </li></sly>
                                 <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
                             </ul>
