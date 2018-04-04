@@ -14,18 +14,15 @@ import org.apache.sling.models.annotations.Model
 
 import javax.inject.Inject
 
-/**
- * Created by icf2025295 on 21/03/18.
- */
 @Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 class MenuBlockFields extends AbstractComponent{
 
-    @DialogField(fieldLabel = "Link Text",ranking = 1D)
+    @DialogField(fieldLabel = "Menu Link Text",ranking = 1D)
     @TextField
     @Inject
     String linkText;
 
-    @DialogField(fieldLabel = "URL path",ranking = 2D)
+    @DialogField(fieldLabel = "Menu URL path",ranking = 2D)
     @PathField(rootPath = "/content/clientname")
     @Inject
     Link urlPath;

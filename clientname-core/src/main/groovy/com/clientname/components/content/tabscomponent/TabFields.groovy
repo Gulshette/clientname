@@ -44,7 +44,7 @@ class TabFields extends AbstractComponent{
         return  openLinkIn
     }
 
-    @DialogField(fieldLabel = "Active/Inactive", ranking = 3D)
+    @DialogField(fieldLabel = "Active/Inactive", ranking = 4D)
     @Selection(options = [
             @Option(text = "Active", value = "active", selected = true),
             @Option(text = "Inactive", value = "inactive")

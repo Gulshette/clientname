@@ -3,15 +3,13 @@ package com.clientname.components.content.menublock
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Tab
 import com.clientname.annotations.NilayaComponent
+import com.clientname.constants.NilayaConstant
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
 import com.icfolson.aem.multicompositeaddon.widget.MultiCompositeField
 
 
-/**
- * Created by icf2025295 on 21/03/18.
- */
-@NilayaComponent(value = "Menu Block", name = "menublock", group = "ap-nilaya",
+@NilayaComponent(value = "Menu Block", name = "menublock", group = NilayaConstant.GROUP_NAME,
         tabs = [
                 @Tab(title = "Menu Block"),
                 @Tab(title = "Dropdown Block")

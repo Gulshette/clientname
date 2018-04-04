@@ -13,9 +13,6 @@ import org.apache.sling.models.annotations.Model
 
 import javax.inject.Inject
 
-/**
- * Created by icf2025295 on 21/03/18.
- */
 @Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 class DropdownFields {
     @DialogField(fieldLabel = "Dropdown URL",ranking = 1D)
