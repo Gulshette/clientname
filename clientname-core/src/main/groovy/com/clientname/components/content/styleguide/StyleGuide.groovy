@@ -9,15 +9,12 @@ import com.icfolson.aem.multicompositeaddon.widget.MultiCompositeField
 
 import javax.inject.Inject
 
-/**
- * Created by icf2025840 on 22/03/18.
- */
 @NilayaComponent(value = "StyleGuide",
         name="styleguide")
 @AutoInstantiate
 class StyleGuide extends AbstractComponent {
 
-    @DialogField(fieldLabel = "Title",ranking = 1D)
+    @DialogField(fieldLabel = " Style Guide Title",ranking = 1D)
     @TextField
     @Inject
     String title
