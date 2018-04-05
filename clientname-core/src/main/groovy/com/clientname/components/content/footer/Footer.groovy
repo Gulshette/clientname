@@ -1,7 +1,6 @@
 package com.clientname.components.content.footer
 
 import com.citytechinc.cq.component.annotations.DialogField
-import com.citytechinc.cq.component.annotations.Tab
 import com.citytechinc.cq.component.annotations.widgets.DialogFieldSet
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.NilayaComponent
