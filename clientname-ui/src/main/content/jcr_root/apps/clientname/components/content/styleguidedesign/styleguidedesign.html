@@ -13,8 +13,8 @@
             </div>
             <div class="stylecolor-section ">
                 <div class="style-boxes">
-                    <ul class="style-boxes-list" data-sly-list="${styleguide.styleGuideShadePojo}">
-                        <li>
+                    <ul class="style-boxes-list">
+                        <li data-sly-repeat="${styleguide.styleGuideShadePojo}">
                             <a href="">
                                 <div class="color-scheme-box ${item.colour @context='styleToken'}" ></div>
                                 <div class="color-scheme-details">

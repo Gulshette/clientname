@@ -10,23 +10,21 @@ import org.apache.sling.models.annotations.Model
 
 import javax.inject.Inject
 
-/**
- * Created by AshwiniPawar on 27/03/18.
- */
+
 @Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 class StyleGuideShadePojo extends AbstractComponent {
 
-    @DialogField( fieldLabel = "Select the color", ranking = 1D)
+    @DialogField( fieldLabel = "Select Color", ranking = 1D)
     @ColorsSelection
     @Inject
     String colour
 
-    @DialogField(fieldLabel = "Shade title",ranking = 2D)
+    @DialogField(fieldLabel = "Shade Title",ranking = 2D)
     @TextField
     @Inject
     String shadeTitle
 
-    @DialogField(fieldLabel = "Shade number",ranking = 3D)
+    @DialogField(fieldLabel = "Shade Number",ranking = 3D)
     @TextField
     @Inject
     String shadeNumber
