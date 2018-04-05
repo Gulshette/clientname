@@ -22,24 +22,23 @@ class ParagraphBlock extends AbstractComponent {
 
     @DialogField(fieldLabel = "Select Variant")
     @Selection(options = [
-            @Option(text = "Home page paragraph block", value = "homepageparagraphblock", selected = true),
-            @Option(text = "Story paragraph", value = "storyparagraph")
-    ], type = Selection.SELECT)
+            @Option(text = "Home page paragraph block", value = "homePageParagraphBlock", selected = true),
+            @Option(text = "Story paragraph", value = "storyParagraph")], type = Selection.SELECT)
     @Inject
     String variant
 
-    @DialogField(fieldLabel = "Title", ranking = 1D)
+    @DialogField(fieldLabel = "Paragraph Block Title", ranking = 1D)
     @TextField
     @Inject
     String title;
 
-    @DialogField(fieldLabel = "Sub Title", ranking = 2D)
+    @DialogField(fieldLabel = "Paragraph Block Sub Title", ranking = 2D)
     @TextField
     @Inject
     String subTitle;
 
-    @DialogField(fieldLabel = "Description", ranking = 3D)
+    @DialogField(fieldLabel = "Paragraph Block Description", ranking = 3D)
     @DefaultRichTextEditor
     @Inject
-    String text;
+    String description;
 }

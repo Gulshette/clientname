@@ -7,7 +7,7 @@
                 <ul id="homeowner-drpdwn" class="top-links clearfix" data-sly-list.first="${subheader.linkItem}">
                     <li class="mob-hide"><a href="javascript:;">homeowner</a></li>
                     <sly data-sly-test="${first.titleText}">
-                    <li><a href="${first.reDirectPath.href}"> ${first.titleText} </a></li>
+                    <li><a href="${first.reDirectPath.href}" target="${first.tabsVal}"> ${first.titleText} </a></li>
                     </sly>
 
                 </ul>
@@ -15,7 +15,7 @@
             <div class="col-sm-6 col-xs-8"  >
                 <ul class="socl-lnks pull-right tab-hide" data-sly-list.four="${subheader.socialIcons}">
                     <li>
-                        <a href="${four.imagePathRedirection.href}" target="_blank">
+                        <a href="${four.imagePathRedirection.href}" target="${four.sameNewTab}">
                             <img width="18" src="${four.imagePath}" alt="Image">
                         </a>
                     </li>
@@ -23,17 +23,17 @@
                 <ul class="top-links dropdown pull-right">
                     <li>	<a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">${subheader.otherDivisonTitle} <span class="arrw-btm"></span></a>
                         <ul class="dropdown-menu" data-sly-list.dropdownlist="${subheader.linkItem1}">
-                            <li><a href="${dropdownlist.reDirectPath.href}">${dropdownlist.titleText}</a></li>
+                            <li><a href="${dropdownlist.reDirectPath.href}" target="${languageList.tabsVal}">${dropdownlist.titleText}</a></li>
                         </ul>
                     </li>
                     <li>	<a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">${subheader.languageTitle} <span class="arrw-btm"></span></a>
                         <ul class="dropdown-menu" data-sly-list.languageList="${subheader.linkItem2}">
-                            <li><a href="${languageList.reDirectPath.href}">${languageList.titleText}</a></li>
+                            <li><a href="${languageList.reDirectPath.href}" target="${languageList.tabsVal}">${languageList.titleText}</a></li>
                         </ul>
                     </li>
                     <li class="origin">	<a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown"><span class="india-flag"><img src="${subheader.mainCountryImage}" alt="India"> </span> <span class="arrw-btm"></span></a>
                         <ul class="dropdown-menu cntry-list" data-sly-list.countryList="${subheader.countryName}">
-                            <li><a href="${countryList.countryRedirectPath.href}"><span class="cntry-flag"><img src="${countryList.countryImage}" alt="${countryList.countryName}"></span><span>${countryList.countryName}</span></a>
+                            <li><a href="${countryList.countryRedirectPath.href}" target="${countryList.targetVal}"><span class="cntry-flag"><img src="${countryList.countryImage}" alt="${countryList.countryName}"></span><span>${countryList.countryName}</span></a>
                             </li>
                         </ul>
                     </li>

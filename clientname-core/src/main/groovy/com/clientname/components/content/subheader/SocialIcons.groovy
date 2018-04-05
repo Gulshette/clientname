@@ -2,6 +2,7 @@ package com.clientname.components.content.subheader
 
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.widgets.PathField
+import com.clientname.annotations.DialogLinkTarget
 import com.clientname.annotations.MultiCompositeFieldItem
 import com.icfolson.aem.library.api.link.Link
 import org.apache.sling.api.resource.Resource
@@ -23,5 +24,10 @@ class SocialIcons {
     @PathField
     @Inject
     Link imagePathRedirection
+
+    @DialogLinkTarget
+    @DialogField(fieldLabel = "Link Target")
+    @Inject
+    String sameNewTab
 
 }

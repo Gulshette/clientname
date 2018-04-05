@@ -1,7 +1,6 @@
 package com.clientname.components.content.tabscomponent
 
-import com.citytechinc.cq.component.annotations.widgets.Switch
-import com.icfolson.aem.library.models.annotations.InheritInject
+import com.clientname.annotations.DialogLinkTarget
 import org.apache.sling.api.resource.Resource
 import org.apache.sling.models.annotations.Model
 import com.citytechinc.cq.component.annotations.DialogField
@@ -16,9 +15,6 @@ import com.icfolson.aem.library.api.link.Link
 
 import javax.inject.Inject
 
-/**
- * Created by icf2025295 on 28/03/18.
- */
 @Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 class TabFields extends AbstractComponent{
 
@@ -32,17 +28,10 @@ class TabFields extends AbstractComponent{
     @Inject
     Link urlPath;
 
-    @DialogField(fieldLabel = "Open Link In", ranking = 3D)
-    @Selection(options = [
-            @Option(text = "Same Window", value = "samewindow", selected = true),
-            @Option(text = "New Window", value = "newwindow")
-    ], type="select")
+    @DialogLinkTarget
+    @DialogField(fieldLabel = "Link Target")
     @Inject
-    @Default(values = "")
-    String openLinkIn
-    String getOpenLink(){
-        return  openLinkIn
-    }
+    String tabTargetValue
 
     @DialogField(fieldLabel = "Active/Inactive", ranking = 4D)
     @Selection(options = [

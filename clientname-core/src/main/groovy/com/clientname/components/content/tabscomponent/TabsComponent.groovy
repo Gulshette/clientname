@@ -11,9 +11,6 @@ import com.icfolson.aem.multicompositeaddon.widget.MultiCompositeField
 
 import javax.inject.Inject
 
-/**
- * Created by icf2025295 on 28/03/18.
- */
 @NilayaComponent(value = "Tabs Component", name = "tabscomponent", group = NilayaConstant.GROUP_NAME)
 @AutoInstantiate
 class TabsComponent extends AbstractComponent {

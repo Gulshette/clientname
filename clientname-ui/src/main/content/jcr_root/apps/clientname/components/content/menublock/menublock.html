@@ -4,12 +4,7 @@
             <ul class="menu-list">
                 <sly data-sly-list="${menuData.menuBlockFields}">
                     <li class="list">
-                        <sly data-sly-test="${item.openLinkIn == 'samewindow'}">
-                            <a href="${item.urlPath.href}" class="list-text">${item.linkText}</a>
-                        </sly>
-                        <sly data-sly-test="${item.openLinkIn == 'newwindow'}">
-                            <a href="${item.urlPath.href}" class="list-text" target='_blank'>${item.linkText}</a>
-                        </sly>
+                        <a href="${item.urlPath.href}" class="list-text" target="${item.menuTargetValue}">${item.linkText}</a>
                     </li>
                 </sly>
                 <li class="list manu-list-desktop">
@@ -19,13 +14,7 @@
                             More
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" data-sly-list="${menuData.dropdownFields}">
-                            <sly data-sly-test="${item.openLinkIn == 'samewindow'}">
-                                <a class="list-text" href="${item.dropdownUrl.href}">${item.dropdownLinkText}</a>
-                            </sly>
-                            <sly data-sly-test="${item.openLinkIn == 'newwindow'}">
-                                <a class="list-text" href="${item.dropdownUrl.href}"
-                                   target='_blank'>${item.dropdownLinkText}</a>
-                            </sly>
+                            <a class="list-text" href="${item.dropdownUrl.href}" target="${item.dropdownTargetValue}">${item.dropdownLinkText}</a>
                         </div>
                     </div>
                 </li>

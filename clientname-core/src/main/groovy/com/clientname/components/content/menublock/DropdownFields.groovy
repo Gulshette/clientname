@@ -5,6 +5,7 @@ import com.citytechinc.cq.component.annotations.Option
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.Selection
 import com.citytechinc.cq.component.annotations.widgets.TextField
+import com.clientname.annotations.DialogLinkTarget
 import com.icfolson.aem.library.api.link.Link
 import org.apache.sling.api.resource.Resource
 import org.apache.sling.models.annotations.Default
@@ -25,16 +26,8 @@ class DropdownFields {
     @Inject
     String dropdownLinkText;
 
-    @DialogField(fieldLabel = "Open Link In", ranking = 4D)
-    @Selection(options = [
-            @Option(text = "Same Window", value = "samewindow", selected = true),
-            @Option(text = "New Window", value = "newwindow")
-    ], type="select")
+    @DialogLinkTarget
+    @DialogField(fieldLabel = "Link Target")
     @Inject
-    @Default(values = "")
-    String openLinkIn
-    String getOpenLink(){
-        return  openLinkIn
-    }
-
+    String dropdownTargetValue
 }
