@@ -1,13 +1,13 @@
 <div class="decor-container" data-sly-use.data="com.clientname.components.content.carousel.Carousel">
-    <h2 class="heading-text">${data.title}</h2>
+    <h2 class="heading-text">${properties.carouselTitle}</h2>
     <div class="decor-advice-block clearfix">
 
-        <div class="owl-decor-carousel owl-carousel owl-theme " data-sly-list="${data.testimonialData}">
-            <div class="item decor-block">
-                <img class="quote-open" src="images/quote-open-icon.png">${item.description @context='html'}
-                <img class="quote-close" src="images/quote-close-icon.png">
+        <div class="owl-decor-carousel owl-carousel owl-theme">
+            <div class="item decor-block" data-sly-repeat="${data.testimonialData}">
+                <img class="quote-open" src="${properties.quoteOpenIcon}">${item.description @context='html'}
+                <img class="quote-close" src="${properties.quoteCloseIcon}">
                 <div class="btn-block">
-                    <a class="text-link">- ${item.btntext @context='html'}</a>
+                    <a class="text-link">${item.text @context='html'}</a>
                 </div>
             </div>
         </div>
