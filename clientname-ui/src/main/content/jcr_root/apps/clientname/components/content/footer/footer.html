@@ -21,9 +21,9 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <ul class="socl-lnks2 pull-right" data-sly-list="${footerData.socialLinkData}">
-                        <li>
-                            <a href="${item.pathLink}" target="_blank">
+                    <ul class="socl-lnks2 pull-right">
+                        <li data-sly-repeat="${footerData.socialLinkData}">
+                            <a href="${item.pathLink}" target="${item.newTab}">
                                 <img src="${item.imgPath}" alt="${item.linkText}">
                             </a>
                         </li>
@@ -40,14 +40,14 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <ul class="ftr-links" data-sly-list="${footerData.textLinkData}">
-                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
+                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}"  target="${item.newTab}">${item.linkText}</a>
                                 </li></sly>
                                 <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
                             </ul>
                         </div>
                         <div class="col-sm-6">
                             <ul class="ftr-links" data-sly-list="${footerData.faqTextLinkData}">
-                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a></li>
+                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}" target="${item.newTab}">${item.linkText}</a></li>
                                 </sly>
                                 <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
                             </ul>
@@ -58,14 +58,14 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <ul class="ftr-links" data-sly-list="${footerData.downloadTextLinkData}">
-                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
+                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}" target="${item.newTab}">${item.linkText}</a>
                                 </li></sly>
                                 <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
                             </ul>
                         </div>
                         <div class="col-sm-6">
                             <ul class="ftr-links" data-sly-list="${footerData.requestTextLinkData}">
-                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
+                                <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}" target="${item.newTab}">${item.linkText}</a>
                                 </li></sly>
                                 <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
                             </ul>
@@ -82,10 +82,8 @@
                     <p class="copyright">${properties.title}</p>
                 </div>
                 <div class="col-sm-8">
-                    <ul class="ftr-links2 pull-right" data-sly-list="${footerData.columnTextLinkData}">
-                        <sly data-sly-test="${item.pathLink}"><li><a href="${item.pathLink}">${item.linkText}</a>
-                        </li></sly>
-                        <sly data-sly-test="${!item.pathLink}"><li>${item.linkText}</li></sly>
+                    <ul class="ftr-links2 pull-right">
+                            <li data-sly-repeat="${footerData.columnTextLinkData}"><a href="${item.pathLink}" target="${item.newTab}"> ${item.linkText}</a> </li>
                     </ul>
                 </div>
             </div>

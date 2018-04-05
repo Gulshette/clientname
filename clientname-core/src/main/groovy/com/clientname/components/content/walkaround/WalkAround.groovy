@@ -9,15 +9,12 @@ import com.icfolson.aem.library.core.components.AbstractComponent
 
 import javax.inject.Inject
 
-/**
- * Created by icf2025840 on 22/03/18.
- */
 @NilayaComponent(value = "WalkAround",
         name="walkaround")
 @AutoInstantiate
 class WalkAround extends AbstractComponent{
 
-    @DialogField(fieldLabel = "Title",ranking = 1D)
+    @DialogField(fieldLabel = " WalkAround Title",ranking = 1D)
     @TextField
     @Inject
     String title
@@ -27,20 +24,20 @@ class WalkAround extends AbstractComponent{
     @Inject
     String iframePath
 
-    @DialogField(fieldLabel = " No of likes",ranking = 3D)
+    @DialogField(fieldLabel = " NUmber of likes",ranking = 3D)
     @TextField
     @Inject
-    String like
+    String likeCount
 
     @DialogField(fieldLabel = "Watched Count",ranking = 4D)
     @TextField
     @Inject
-    String watched
+    String watchedCount
 
     @DialogField(fieldLabel = "Shared Count",ranking = 5D)
     @TextField
     @Inject
-    String shared
+    String sharedCount
 
 
 }
