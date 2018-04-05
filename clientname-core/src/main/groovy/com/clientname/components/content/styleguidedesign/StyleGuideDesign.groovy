@@ -15,12 +15,7 @@ import javax.inject.Inject
  */
 @NilayaComponent(value = "Style Guide Design",
         name="styleguidedesign",
-        group = "ap-nilaya",
-        listeners = [
-                @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-                @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-                @Listener(name = "afterdelete", value = "REFRESH_PAGE")
-        ])
+        group = "ap-nilaya")
 @AutoInstantiate
 class StyleGuideDesign extends AbstractComponent {
 
