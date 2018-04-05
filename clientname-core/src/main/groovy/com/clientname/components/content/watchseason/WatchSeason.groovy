@@ -12,15 +12,10 @@ import javax.inject.Inject
 
 @NilayaComponent(value = "Watch Season",
         name="watchseason",
-        group = "ap-nilaya",
-        listeners = [
-                @Listener(name = "afteredit", value = "REFRESH_PAGE"),
-                @Listener(name = "afterinsert", value = "REFRESH_PAGE"),
-                @Listener(name = "afterdelete", value = "REFRESH_PAGE")
-        ])
+        group = "ap-nilaya")
 @AutoInstantiate
 class WatchSeason extends AbstractComponent{
-    @DialogField(fieldLabel = "Title",ranking = 1D)
+    @DialogField(fieldLabel = "Watch Season Title",ranking = 1D)
     @TextField
     @Inject
     String title

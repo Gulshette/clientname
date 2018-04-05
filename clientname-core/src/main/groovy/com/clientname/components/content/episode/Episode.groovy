@@ -2,12 +2,11 @@ package com.clientname.components.content.episode
 
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Listener
-import com.citytechinc.cq.component.annotations.Option
 import com.citytechinc.cq.component.annotations.widgets.PathField
-import com.citytechinc.cq.component.annotations.widgets.Selection
 import com.citytechinc.cq.component.annotations.widgets.TextArea
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.DialogImageField
+import com.clientname.annotations.DialogLinkTarget
 import com.clientname.annotations.NilayaComponent
 import com.clientname.constants.NilayaComponentGroup
 import com.clientname.constants.NilayaConstant
@@ -16,13 +15,10 @@ import com.day.cq.dam.api.DamConstants
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
 import org.apache.sling.api.resource.ResourceResolver
-import org.apache.sling.models.annotations.Default
 
 import javax.annotation.PostConstruct
 import javax.inject.Inject
-/**
- * Created by Krupa on 20/03/18.
- */
+
 @NilayaComponent(value="Episode component",
         name="episode",
         group = NilayaComponentGroup.AP_NILAYA,
@@ -60,13 +56,8 @@ class Episode extends AbstractComponent{
     @Inject
     String episodeButtonLink
 
-    @DialogField(fieldLabel = "Open Link In", ranking = 6D)
-    @Selection(options = [
-            @Option(text = "Same Window", value = "samewindow", selected = true),
-            @Option(text = "New Window", value = "newwindow")
-    ], type="select")
+    @DialogLinkTarget(ranking = 6D)
     @Inject
-    @Default(values = "")
     String episodeOpenLinkIn
 
     @Inject

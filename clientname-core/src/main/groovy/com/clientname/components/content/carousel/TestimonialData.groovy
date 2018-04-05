@@ -14,19 +14,15 @@ import javax.inject.Inject
 @Model(adaptables = Resource,defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 class TestimonialData extends AbstractComponent{
 
-    @DialogField(fieldLabel = "Testimonial text",ranking = 1D)
+    @DialogField(fieldLabel = "Testimonial Description",ranking = 1D)
     @TextArea
     @Inject
     String description
 
-    @DialogField(fieldLabel = "Testimonial button text",ranking = 2D)
+    @DialogField(fieldLabel = "Testimonial Text",ranking = 2D)
     @TextField
     @Inject
-    String btntext
+    String text
 
-    @DialogField(fieldLabel = "Testimonial button link",ranking = 3D)
-    @TextField
-    @Inject
-    String btnlink
 
 }
