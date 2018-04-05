@@ -7,9 +7,6 @@ import com.citytechinc.cq.component.annotations.widgets.ToolbarConfig
 import com.citytechinc.cq.component.annotations.widgets.rte.*
 import groovy.transform.AnnotationCollector
 
-/**
- * Created by icf2025814 on 20/03/18.
- */
 @DialogField(fieldLabel = "Text")
 @RichTextEditor(
         format = @Format,

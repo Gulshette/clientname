@@ -1,28 +1,28 @@
 <sly data-sly-use.data="com.clientname.components.content.paragraphblock.ParagraphBlock">
-    <sly data-sly-test="${data.variant == 'homePageParagraphBlock'}">
+    <sly data-sly-test="${data.variant == 'homepageparagraphblock'}">
         <div class="full-widt-container">
             <div class="container">
                 <div class="title-paragrap-block">
                     <h2 class="title" data-sly-test="${data.title}">${data.title}</h2>
-                    ${data.description @context='html'}
+                    ${data.text @context='html'}
                 </div>
             </div>
         </div>
     </sly>
     <!-- Story/Paragraph starts here-->
-    <sly data-sly-test="${data.variant == 'storyParagraph'}">
+    <sly data-sly-test="${data.variant == 'storyparagraph'}">
         <div class="full-widt-container">
             <div class="container">
                 <div class="title-paragrap-block inner-page">
                     <span class="title" data-sly-test="${data.title}">${data.title}</span>
                     <p class="sub-title" data-sly-test="${data.subTitle}">${data.subTitle}</p>
-                    ${data.description @context='html'}
+                    ${data.text @context='html'}
                 </div>
             </div>
         </div>
     </sly>
 
-    <span data-sly-test="${data.variant == 'storyParagraph'}" class="wthi-read-more js-read-more">read more</span>
+    <span data-sly-test="${data.variant == 'storyparagraph'}" class="wthi-read-more js-read-more">read more</span>
     <!-- Story/Paragraph end here-->
 </sly>
 
