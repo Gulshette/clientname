@@ -1,14 +1,11 @@
 package com.clientname.components.content.menublock
 
 import com.citytechinc.cq.component.annotations.DialogField
-import com.citytechinc.cq.component.annotations.Option
 import com.citytechinc.cq.component.annotations.widgets.PathField
-import com.citytechinc.cq.component.annotations.widgets.Selection
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.DialogLinkTarget
 import com.icfolson.aem.library.api.link.Link
 import org.apache.sling.api.resource.Resource
-import org.apache.sling.models.annotations.Default
 import org.apache.sling.models.annotations.DefaultInjectionStrategy
 import org.apache.sling.models.annotations.Model
 
