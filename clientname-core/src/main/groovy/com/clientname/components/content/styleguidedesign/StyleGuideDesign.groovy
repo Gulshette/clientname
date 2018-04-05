@@ -4,6 +4,7 @@ import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Listener
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.TextField
+import com.clientname.annotations.DialogLinkTarget
 import com.clientname.annotations.NilayaComponent
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.library.core.components.AbstractComponent
@@ -42,20 +43,31 @@ class StyleGuideDesign extends AbstractComponent {
     @DialogField(fieldLabel = "Redirection path",ranking = 4D)
     @PathField
     @Inject
-    String imgLink
+    String getImgLink() {
+        getAsHrefInherited("imgLink").or("")
+    }
 
-    @DialogField(fieldLabel = "Button text",ranking = 5D)
+    @DialogLinkTarget(ranking = 5D)
+    @Inject
+    String newWindow
+
+    @DialogField(fieldLabel = "Button text",ranking = 6D)
     @PathField
     @Inject
     String buttonText
 
-    @DialogField(fieldLabel = "Button link",ranking = 6D)
+    @DialogField(fieldLabel = "Button link",ranking = 7D)
     @PathField
     @Inject
-    String buttonLink
+    String getButtonLink() {
+        getAsHrefInherited("buttonLink").or("")
+    }
 
+    @DialogLinkTarget(ranking = 8D)
+    @Inject
+    String newTab
 
-    @DialogField(fieldLabel = "Configure color shades",ranking = 7D)
+    @DialogField(fieldLabel = "Configure color shades",ranking = 9D)
     @MultiCompositeField
     List<StyleGuideShadePojo> getStyleGuideShadePojo() {
         getNodesInherited("styleGuideShadePojo").collect { child ->

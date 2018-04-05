@@ -2,9 +2,9 @@
 <div class="watch-season-section" data-sly-use.data="com.clientname.components.content.watchseason.WatchSeason">
     <h3 class="heading-text">${data.title @context='html'}</h3>
     <p class="gallery-title">${data.galleryTitle @context='html'}</p>
-    <div class="gallery-section" data-sly-list="${data.galleryData}">
-        <div class="episode-block">
-            <a class="episode-link" href="${item.episodeLink}">
+    <div class="gallery-section">
+        <div class="episode-block" data-sly-repeat="${data.galleryData}">
+            <a class="episode-link" href="${item.episodeLink}" target="${item.newTab}">
                 <img class="episode-image" src="${item.imgPath}" alt="Image" />
             </a>
             <p class="episode-desc">${item.episodeDescription}</p>
