@@ -10,9 +10,7 @@ import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.multicompositeaddon.widget.MultiCompositeField
 
 import javax.inject.Inject
-/**
- * Created by Krupa on 21/03/18.
- */
+
 @NilayaComponent(value="Video component",
         name="video",
         group = NilayaComponentGroup.AP_NILAYA,
