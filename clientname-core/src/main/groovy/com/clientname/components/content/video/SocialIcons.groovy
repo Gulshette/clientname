@@ -5,6 +5,7 @@ import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.TextField
 import com.clientname.annotations.DialogLinkTarget
 import com.clientname.annotations.MultiCompositeFieldItem
+import com.clientname.constants.NilayaConstant
 import com.icfolson.aem.library.core.components.AbstractComponent
 
 import javax.inject.Inject
@@ -12,17 +13,6 @@ import javax.inject.Inject
 @MultiCompositeFieldItem
 class SocialIcons extends AbstractComponent{
 
-    String getSocialLink() {
-        return socialLink
-    }
-
-    String getIconTitle() {
-        return iconTitle
-    }
-
-    String getSocialIconImage() {
-        return socialIconImage
-    }
     @DialogField(fieldDescription = "Enter the social link to share", fieldLabel = "Social Link")
     @PathField
     @Inject
@@ -34,7 +24,7 @@ class SocialIcons extends AbstractComponent{
     private String iconTitle
 
     @DialogField(fieldLabel = "Social icon", fieldDescription = "Social icon image")
-    @PathField
+    @PathField(rootPath = NilayaConstant.DAM_ROOT_PATH)
     @Inject
     private String socialIconImage;
 
@@ -43,5 +33,17 @@ class SocialIcons extends AbstractComponent{
 
     String getSocialOpenLinkIn(){
         return  socialOpenLinkIn
+    }
+
+    String getSocialLink() {
+        return socialLink
+    }
+
+    String getIconTitle() {
+        return iconTitle
+    }
+
+    String getSocialIconImage() {
+        return socialIconImage
     }
 }

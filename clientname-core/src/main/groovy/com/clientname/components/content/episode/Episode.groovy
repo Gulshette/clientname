@@ -52,7 +52,7 @@ class Episode extends AbstractComponent{
     String episodeButtonText
 
     @DialogField(fieldDescription = "Enter the episode description", fieldLabel = "Episode button link", ranking = 5D)
-    @PathField
+    @PathField(rootPath = NilayaConstant.CONTENT_ROOT_PATH)
     @Inject
     String episodeButtonLink
 
@@ -60,14 +60,14 @@ class Episode extends AbstractComponent{
     @Inject
     String episodeOpenLinkIn
 
+    def episodeImgTitle
+
     @Inject
     private ResourceResolver resourceResolver
 
     def getEpisodeImgTitle() {
         return episodeImgTitle
     }
-
-    def episodeImgTitle
 
     String getEpisodeOpenLinkIn(){
         return  episodeOpenLinkIn

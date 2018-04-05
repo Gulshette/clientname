@@ -15,4 +15,8 @@ final class NilayaConstant {
     public static final String AFTER_DELETE = "afterinsert"
 
     public static final String IMAGE = "Image"
+
+    public static final String CONTENT_ROOT_PATH = "/content"
+
+    public static final String DAM_ROOT_PATH = "/content/dam"
 }

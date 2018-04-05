@@ -41,7 +41,7 @@ class Gallery {
 
     @DialogField(fieldLabel = "Gallery image", fieldDescription = "Select the gallery images to display")
     @MultiField
-    @PathField
+    @PathField(rootPath = NilayaConstant.DAM_ROOT_PATH)
     @Inject
     private String[] galleryList
 
