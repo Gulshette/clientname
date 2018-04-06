@@ -1,6 +1,13 @@
 <sly data-sly-use.banner="com.clientname.components.content.fullwidthbanner.FullWidthBanner">
     <div class="full-widt-banner wthi-full-width-banner">
-        <img src="${banner.bgImage}" data-sly-test="${banner.bgImage}">
+        <img class="image-rendition"
+             data-sly-use.imageObj="${'com.clientname.helpers.ImageModel' @ imagePath = banner.bgImage}"
+             data-bgset="${banner.bgImage @ context='uri'}/jcr:content/renditions/cq5dam.web.1280.1280.${imageObj.extension @context='uri'}"
+             data-device-img="${banner.bgImage @ context='uri'}/jcr:content/renditions/cq5dam.web.1280.1280.${imageObj.extension @context='uri'}"
+             retina-desktop-img="${banner.bgImage @ context='uri'}"
+             retina-device-img="${banner.bgImage @ context='uri'}/jcr:content/renditions/cq5dam.web.1280.1280.${imageObj.extension @context='uri'}"
+             src="${banner.bgImage}" data-sly-test="${banner.bgImage}">
+
         <div class="page-title-wrapper" data-sly-test="${banner.title && banner.description}">
             <h1 id="page-title" class="page-title" data-shrink-original-size="40" data-sly-test="${banner.title}">${banner.title}</h1>
             <div id="page-description" class="page-description hidden-xs" data-sly-test="${banner.description}">

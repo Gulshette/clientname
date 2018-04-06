@@ -19,4 +19,13 @@ final class NilayaConstant {
     public static final String CONTENT_ROOT_PATH = "/content"
 
     public static final String DAM_ROOT_PATH = "/content/dam"
+
+    public static final String EXTENSION_PNG = "png"
+
+    public static final String EXTENSION_GIF = "gif"
+
+    public static final String EXTENSION_JPG = "jpg"
+
+    public static final String EXTENSION_JPEG = "jpeg"
+
 }
