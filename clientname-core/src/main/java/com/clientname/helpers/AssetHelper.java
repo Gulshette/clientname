@@ -1,7 +1,7 @@
 package com.clientname.helpers;
 
 
-import com.bostonpizza.service.constants.BPConstants;
+import com.clientname.constants.NilayaConstant;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.dam.api.Asset;
 import com.day.cq.dam.api.DamConstants;
@@ -65,10 +65,10 @@ public class AssetHelper {
             /*Transformation on the image with extension .gif reducing the image quality,
             So all such .gif images are transformed as .png images*/
             String imageExtension = FilenameUtils.getExtension(asset.getName());
-            if (imageExtension.equalsIgnoreCase(BPConstants.EXTENSION_GIF)) {
-                imageModel.setExtension(BPConstants.EXTENSION_PNG);
-            }else if (imageExtension.equalsIgnoreCase(BPConstants.EXTENSION_JPG) || imageExtension.equalsIgnoreCase(BPConstants.EXTENSION_JPEG)) {
-                imageModel.setExtension(BPConstants.EXTENSION_JPEG);
+            if (imageExtension.equalsIgnoreCase(NilayaConstant.EXTENSION_GIF)) {
+                imageModel.setExtension(NilayaConstant.EXTENSION_PNG);
+            }else if (imageExtension.equalsIgnoreCase(NilayaConstant.EXTENSION_JPG) || imageExtension.equalsIgnoreCase(NilayaConstant.EXTENSION_JPEG)) {
+                imageModel.setExtension(NilayaConstant.EXTENSION_JPEG);
             }
             else {
                 imageModel.setExtension(imageExtension);
