@@ -15,9 +15,7 @@ import org.apache.sling.api.resource.ResourceResolver
 
 import javax.annotation.PostConstruct
 import javax.inject.Inject
-/**
- * Created by Krupa on 21/03/18.
- */
+
 @NilayaComponent(value="Gallery component",
         name="gallery",
         group = NilayaComponentGroup.AP_NILAYA,
@@ -43,7 +41,7 @@ class Gallery {
 
     @DialogField(fieldLabel = "Gallery image", fieldDescription = "Select the gallery images to display")
     @MultiField
-    @PathField
+    @PathField(rootPath = NilayaConstant.DAM_ROOT_PATH)
     @Inject
     private String[] galleryList
 

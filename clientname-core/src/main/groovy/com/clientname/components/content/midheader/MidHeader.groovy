@@ -3,6 +3,7 @@ package com.clientname.components.content.midheader
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.Listener
 import com.citytechinc.cq.component.annotations.widgets.PathField
+import com.clientname.annotations.DialogLinkTarget
 import com.clientname.annotations.NilayaComponent
 import com.clientname.constants.NilayaConstant
 import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
@@ -23,7 +24,12 @@ class MidHeader extends AbstractComponent{
     @DialogField(fieldLabel = "Enter the redirection path for logo")
     @PathField
     @Inject
-    Link logoPath;
+    Link logoPath
+
+    @DialogLinkTarget
+    @DialogField(fieldLabel = "Link Target")
+    @Inject
+    String targetVal1
 
     @DialogField(fieldLabel = "Enter the user iocn")
     @PathField
@@ -34,6 +40,12 @@ class MidHeader extends AbstractComponent{
     @PathField
     @Inject
     Link userIconPath
+
+    @DialogLinkTarget
+    @DialogField(fieldLabel = "Link Target")
+    @Inject
+    String targetVal2
+
 
 
     @DialogField(fieldLabel = "Enter the Cart icon")
@@ -46,6 +58,11 @@ class MidHeader extends AbstractComponent{
     @Inject
     Link cartIconPath
 
+    @DialogLinkTarget
+    @DialogField(fieldLabel = "Link Target")
+    @Inject
+    String targetVal3
+
     @DialogField(fieldLabel = "Enter the home decor icon")
     @PathField
     @Inject
@@ -56,6 +73,10 @@ class MidHeader extends AbstractComponent{
     @Inject
     Link homeDecorIconPath
 
+    @DialogLinkTarget
+    @DialogField(fieldLabel = "Link Target")
+    @Inject
+    String targetVal4
 
 
 }

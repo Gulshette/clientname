@@ -12,6 +12,7 @@ import com.day.cq.search.Query
 import com.day.cq.search.QueryBuilder
 import com.day.cq.search.result.Hit
 import com.day.cq.search.result.SearchResult
+import com.day.cq.searchpromote.Search
 import com.day.cq.tagging.Tag
 import com.day.cq.tagging.TagManager
 import com.icfolson.aem.library.api.link.NavigationLink
@@ -44,34 +45,48 @@ class SearchPage extends AbstractComponent{
         getAsPageInherited("rootPage").or(currentPage)
     }
 
+   List<SearchPagePojo> searchDataList;
 
+    List<SearchPagePojo> getSearchDataList() {
+        return searchDataList
+    }
 
-   @PostConstruct
+    void setSearchDataList(List<SearchPagePojo> searchDataList) {
+        this.searchDataList = searchDataList
+    }
+
+    @PostConstruct
    public  void init(){
-       HashMap<String, Object> map1 = new HashMap<String, Object>();
+
+       /* searchDataList=new ArrayList<>();
        QueryBuilder queryBuilder = resourceResolver.adaptTo(QueryBuilder.class);
        Session session = resourceResolver.adaptTo(Session.class);
        final Map<String, String> map = new HashMap<>();
-       map.put("path", "/content/clientname/jhgfds");
+       map.put("path", "/content/clientname");
        map.put("type", "cq:PageContent");
        map.put("property", "cq:tags");
-       map.put("property.1_value","level1")
-       map.put("p.limit", "-1");
+       map.put("property.value","level1");
+       map.put("property.operation","exists");
 
        Query query = queryBuilder.createQuery(PredicateGroup.create(map), session);
        SearchResult searchResult = query.getResult();
-       if (searchResult != null) {
+       if (searchResult != null && searchResult.totalMatches > 0) {
            List<Hit> hits = searchResult.getHits();
            for (Hit hit : hits) {
+               Resource resultResource=hit.getResource();
+
                try {
-                   map1.put(hit.title, hit.path)
+                   searchDataList.add(resultResource.parent.getName());
+                   searchDataList.add(resultResource.parent.getPath());
+
 
                } catch (ReplicationException e) {
                    //LOGGER.error("ReplicationException", e.getMessage(),e);
                }
            }
-       }
-        /*def itr = resourceResolver.findResources("/jcr:root/content/clientname//element(*, cq:PageContent) [ @cq:tags ]","xpath");
+
+       }*/
+       /* def itr = resourceResolver.findResources("/jcr:root/content/clientname//element(*, cq:PageContent) [ @cq:tags ]","xpath");
         itr.each{res->
             println res.path
         }*/

@@ -1,32 +1,18 @@
 package com.clientname.components.content.video
 
 import com.citytechinc.cq.component.annotations.DialogField
-import com.citytechinc.cq.component.annotations.Option
 import com.citytechinc.cq.component.annotations.widgets.PathField
-import com.citytechinc.cq.component.annotations.widgets.Selection
 import com.citytechinc.cq.component.annotations.widgets.TextField
+import com.clientname.annotations.DialogLinkTarget
 import com.clientname.annotations.MultiCompositeFieldItem
+import com.clientname.constants.NilayaConstant
 import com.icfolson.aem.library.core.components.AbstractComponent
-import org.apache.sling.models.annotations.Default
 
 import javax.inject.Inject
-/**
- * Created by Krupa on 21/03/18.
- */
+
 @MultiCompositeFieldItem
 class SocialIcons extends AbstractComponent{
 
-    String getSocialLink() {
-        return socialLink
-    }
-
-    String getIconTitle() {
-        return iconTitle
-    }
-
-    String getSocialIconImage() {
-        return socialIconImage
-    }
     @DialogField(fieldDescription = "Enter the social link to share", fieldLabel = "Social Link")
     @PathField
     @Inject
@@ -38,19 +24,26 @@ class SocialIcons extends AbstractComponent{
     private String iconTitle
 
     @DialogField(fieldLabel = "Social icon", fieldDescription = "Social icon image")
-    @PathField
+    @PathField(rootPath = NilayaConstant.DAM_ROOT_PATH)
     @Inject
     private String socialIconImage;
 
-    @DialogField(fieldLabel = "Open Link In", ranking = 4D)
-    @Selection(options = [
-            @Option(text = "Same Window", value = "samewindow", selected = true),
-            @Option(text = "New Window", value = "newwindow")
-    ], type="select")
-    @Inject
-    @Default(values = "")
+    @DialogLinkTarget
     String socialOpenLinkIn
+
     String getSocialOpenLinkIn(){
         return  socialOpenLinkIn
+    }
+
+    String getSocialLink() {
+        return socialLink
+    }
+
+    String getIconTitle() {
+        return iconTitle
+    }
+
+    String getSocialIconImage() {
+        return socialIconImage
     }
 }

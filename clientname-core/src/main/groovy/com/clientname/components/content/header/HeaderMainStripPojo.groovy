@@ -3,6 +3,7 @@ package com.clientname.components.content.header
 import com.citytechinc.cq.component.annotations.DialogField
 import com.citytechinc.cq.component.annotations.widgets.PathField
 import com.citytechinc.cq.component.annotations.widgets.TextField
+import com.clientname.annotations.DialogLinkTarget
 import com.clientname.annotations.MultiCompositeFieldItem
 import com.icfolson.aem.library.api.link.Link
 import com.icfolson.aem.library.core.components.AbstractComponent
@@ -27,6 +28,11 @@ class HeaderMainStripPojo extends AbstractComponent {
     @PathField
     @Inject
     Link redirectionPath
+
+    @DialogLinkTarget
+    @DialogField(fieldLabel = "Link Target")
+    @Inject
+    String sameNew
 
 
     @DialogField(fieldLabel = "Sub Titles",fieldDescription = "Enter the subTitles")

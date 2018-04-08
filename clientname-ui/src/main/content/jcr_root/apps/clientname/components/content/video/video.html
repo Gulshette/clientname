@@ -9,10 +9,10 @@
         </div>
         <!-- use dam images for FB Twitter etc...-->
         <div data-sly-test="${videoData.socialShareData}" class="video-share">
-            <ul class="socl-lnks2" data-sly-list.link="${videoData.socialShareData}">
-                <li>
-                    <a href="${link.socialLink}" target="${link.socialOpenLinkIn == 'newwindow' ? '_blank' : ''}">
-                        <img src="${link.socialIconImage}" alt="${link.iconTitle}">
+            <ul class="socl-lnks2">
+                <li data-sly-repeat="${videoData.socialShareData}">
+                    <a href="${item.socialLink}" target="${item.socialOpenLinkIn}">
+                        <img src="${item.socialIconImage}" alt="${item.iconTitle}">
                     </a>
                 </li>
             </ul>

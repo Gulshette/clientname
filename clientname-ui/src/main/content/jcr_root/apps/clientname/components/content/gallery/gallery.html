@@ -5,10 +5,10 @@
 <div class="innerpagegallery-section">
     <h3 class="heading" data-sly-test="${galleryData.galleryTitle}">${galleryData.galleryTitle}</h3>
 
-    <div data-sly-test="${galleryData.galleryList}" class="gallery-section" data-sly-list.imageData="${galleryData.imageItemList}">
-        <div class="innerpagegallery-block">
-            <a data-lyte-options="group:orion2" class="innerpagegallery-link js-preview-image" href="javascript:void(0)" data-title="${imageData.imageTitle}">
-                <img class="innerpagegallery-image" src="${imageData.imagePath}" alt="${imageData.imageTitle}" />
+    <div data-sly-test="${galleryData.galleryList}" class="gallery-section">
+        <div class="innerpagegallery-block" data-sly-repeat="${galleryData.imageItemList}">
+            <a data-lyte-options="group:orion2" class="innerpagegallery-link js-preview-image" href="javascript:void(0)" data-title="${item.imageTitle}">
+                <img class="innerpagegallery-image" src="${item.imagePath}" alt="${item.imageTitle}" />
             </a>
         </div>
     </div>

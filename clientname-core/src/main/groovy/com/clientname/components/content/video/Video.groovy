@@ -10,9 +10,7 @@ import com.icfolson.aem.library.api.components.annotations.AutoInstantiate
 import com.icfolson.aem.multicompositeaddon.widget.MultiCompositeField
 
 import javax.inject.Inject
-/**
- * Created by Krupa on 21/03/18.
- */
+
 @NilayaComponent(value="Video component",
         name="video",
         group = NilayaComponentGroup.AP_NILAYA,
@@ -24,19 +22,21 @@ import javax.inject.Inject
 @AutoInstantiate
 class Video {
 
-    String getVideoPath() {
-        return videoPath
-    }
     @DialogField(fieldDescription = "Enter the path of the video to display", fieldLabel = "Video Link")
     @PathField
     @Inject
     private String videoPath
 
-    List<SocialIcons> getSocialShareData() {
-        return socialShareData
-    }
     @DialogField(fieldDescription = "Enter all the social icon details to share", fieldLabel = "Social icons")
     @MultiCompositeField
     @Inject
     private List<SocialIcons> socialShareData
+
+    String getVideoPath() {
+        return videoPath
+    }
+
+    List<SocialIcons> getSocialShareData() {
+        return socialShareData
+    }
 }

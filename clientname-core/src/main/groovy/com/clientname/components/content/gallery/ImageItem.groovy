@@ -2,9 +2,6 @@ package com.clientname.components.content.gallery
 
 import com.clientname.annotations.MultiCompositeFieldItem
 
-/**
- * Created by Krupa on 29/03/18.
- */
 @MultiCompositeFieldItem
 class ImageItem {
 

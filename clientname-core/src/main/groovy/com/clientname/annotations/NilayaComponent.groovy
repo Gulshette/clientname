@@ -11,7 +11,7 @@ import org.apache.sling.models.annotations.Model
 import static com.icfolson.aem.library.core.constants.ComponentConstants.*
 
 @AnnotationCollector
-@Component(value = "Nilaya Component", group = NilayaComponentGroup.AP_NILAYA, listeners = [
+@Component(value = "Nilaya Component", group = NilayaComponentGroup.AP_NILAYA, disableTargeting = true,listeners = [
         @Listener(name = EVENT_AFTER_INSERT, value = REFRESH_PAGE),
         @Listener(name = EVENT_AFTER_EDIT, value = REFRESH_PAGE),
         @Listener(name = EVENT_AFTER_DELETE, value = REFRESH_PAGE)

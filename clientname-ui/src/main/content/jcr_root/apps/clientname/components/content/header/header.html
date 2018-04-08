@@ -1,71 +1,71 @@
 <sly data-sly-test="${wcmmode.edit}" data-sly-use.authoringUtils="/libs/wcm/foundation/components/utils/AuthoringUtils.js"/>
 
 <header class="main-header" data-sly-use.header="com.clientname.components.content.header.Header">
-    <sly data-sly-resource="${@path='subheader', resourceType='clientname/components/content/subheader'}"></sly>
+   <sly data-sly-resource="${@path='subheader', resourceType='clientname/components/content/subheader'}"></sly>
     <div class="fix-secn">
-        <sly data-sly-resource="${@path='midheader', resourceType='clientname/components/content/midheader'}"></sly>
-        <div class="hdr-btm clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 pos-static">
-                        <ul class="sf-menu main-nav" data-sly-list.first="${header.headerMainStripPojo}">
-                            <li class="has-child">
-                                <a href="${first.redirectionPath.href}">	<span class="icon">
-												<img class="desktop-hide" src="${first.headerIcon}" alt="image">
-												<img class="mob-hide" src="images/bulb.svg" alt="image">
-											</span>
-                                    <span>${first.headerTitle}</span>
-                                </a>
-                                <div class="sf-mega clearfix">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="menu-tabs pos1 clearfix" data-sly-list.secondLevel="${first.headerSecondLevelStripPojo}">
-                                                    <ul class="menu-tab-list">
-                                                        <li class="learn prple"><a href="${secondLevel.path.href}"><span class="menu-icon"><img src="${secondLevel.smallIcon}" alt="Image"></span><span>${secondLevel.title}</span></a>
-                                                        </li>
-                                                    </ul>
-                                                    <div id="learn" class="menu-tab-cntnt prple">
-                                                        <div class="col-md-4 col-sm-6 brdr-rght">
-                                                            <ul class="sub-menu">
-                                                                <li>
-                                                                    <a href="javascript:;">
-                                                                        <div class="submenu-hdng">${secondLevel.title}</div>
-                                                                        <p>${secondLevel.description}</p>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="col-md-4 col-sm-6">
-                                                            <ul class="sub-menu">
-                                                                <li>
-                                                                    <a href="javascript:;">
-                                                                        <div class="submenu-hdng">${secondLevel.title}</div>
-                                                                        <p>${secondLevel.description}</p>
-                                                                    </a>
-                                                                </li>
+       <sly data-sly-resource="${@path='midheader', resourceType='clientname/components/content/midheader'}"></sly>
+             <div class="hdr-btm clearfix">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-md-12 pos-static">
+                             <ul class="sf-menu main-nav" data-sly-list.first="${header.headerMainStripPojo}" data-sly-test="${!first}">
+                                 <li class="has-child">
+                                     <a href="${first.redirectionPath.href}" target="${first.sameNew}"><span class="icon">
+                                                     <img class="desktop-hide" src="${first.headerIcon}" alt="image">
+                                                     <img class="mob-hide" src="images/bulb.svg" alt="image">
+                                                 </span>
+                                         <span>${first.headerTitle}</span>
+                                     </a>
+                                     <div class="sf-mega clearfix">
+                                         <div class="container">
+                                             <div class="row">
+                                                 <div class="col-md-12">
+                                                     <div class="menu-tabs pos1 clearfix" data-sly-list.secondLevel="${first.headerSecondLevelStripPojo}">
+                                                         <ul class="menu-tab-list">
+                                                             <li class="learn prple"><a href="${secondLevel.path.href}" target="${secondLevel.sameNewVal}"><span class="menu-icon"><img src="${secondLevel.smallIcon}" alt="${secondLevel.altText}"></span><span>${secondLevel.title}</span></a>
+                                                             </li>
+                                                         </ul>
+                                                         <div id="learn" class="menu-tab-cntnt prple">
+                                                             <div class="col-md-4 col-sm-6 brdr-rght">
+                                                                 <ul class="sub-menu">
+                                                                     <li>
+                                                                         <a href="javascript:;">
+                                                                             <div class="submenu-hdng">${secondLevel.title}</div>
+                                                                             <p>${secondLevel.description}</p>
+                                                                         </a>
+                                                                     </li>
+                                                                 </ul>
+                                                             </div>
+                                                            <!-- <div class="col-md-4 col-sm-6">
+                                                                 <ul class="sub-menu">
+                                                                     <li>
+                                                                         <a href="javascript:;">
+                                                                             <div class="submenu-hdng">${secondLevel.title}</div>
+                                                                             <p>${secondLevel.description}</p>
+                                                                         </a>
+                                                                     </li>
 
-                                                            </ul>
-                                                        </div>
-                                                    </div>
+                                                                 </ul>
+                                                             </div>-->
+                                                         </div>
 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </li>
 
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </header>
 
 
-<img data-sly-test="${wcmmode.edit && authoringUtils && authoringUtils.isTouch}"
-     src="/etc/designs/default/0.gif" data-emptytext="header"
-     class="cq-placeholder file cq-dd-image"/>
+     <img data-sly-test="${wcmmode.edit && authoringUtils && authoringUtils.isTouch}"
+          src="/etc/designs/default/0.gif" data-emptytext="header"
+          class="cq-placeholder file cq-dd-image"/>
 
