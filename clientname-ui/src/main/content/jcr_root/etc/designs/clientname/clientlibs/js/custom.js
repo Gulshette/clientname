@@ -86,4 +86,39 @@ $(document).ready(function(e) {
                 $('.js-read-more').show();
             });
         };
+
+         // Image Rendition function
+            var window_width = $(window).width();
+            function imageRendtion (deviceType) {
+            	$('.image-rendition').each(function(){
+            	  var deviceimage = $(this).attr(deviceType);
+            	  var databgset = $(this).attr('data-bgset');
+
+                  // For some browsers, `attr` is undefined; for others,
+                  // `attr` is false.  Check for both.
+                  if (typeof databgset !== typeof undefined && databgset !== false) {
+                      databgset = true;
+                  }
+            	   if((deviceimage != undefined) && (deviceimage != "")){
+                        if(databgset){
+                            $(this).attr('data-bgset', deviceimage);
+                        } else {
+            	            $(this).attr('style', deviceimage);
+            	        }
+            	    }
+            	});
+            }
+
+            if (window.devicePixelRatio >= 2) {
+              /* retina display */
+                if(window_width <= 767) {
+                    imageRendtion("retina-device-img");
+                } else {
+                    imageRendtion("retina-desktop-img");
+                }
+            } else {
+                if(window_width <= 767) {
+                    imageRendtion("data-device-img");
+                }
+            }
 });
