@@ -1,4 +1,4 @@
-<div data-sly-use.navData="com.clientname.components.content.navigationbar.NavigationBar">
+<div class='nav' data-sly-use.navData="com.clientname.components.content.navigationbar.NavigationBar">
     MenuBar
     <ul data-sly-list="${navData.mainNavPages}">
         <li>
@@ -15,4 +15,12 @@
 
         </li>
     </ul>
+
+
+
+    <!--<ul data-sly-list="${navData.navigationLinks}">
+        <li>
+            <a href="${item.href}">${item.title}</a>
+        </li>
+    </ul>-->
 </div>
