@@ -1,6 +1,6 @@
-Search Page Data
+<div style="color:red">Search Page Data</div>
 <div data-sly-use.searchData="com.clientname.components.content.searchpage.SearchPage">
     <div data-sly-list="${searchData.searchDataList}">
-       ${item}
+        <div><a href="${item.path}.html" style="color:blue">${item.title} </a></div>
     </div>
 </div>
