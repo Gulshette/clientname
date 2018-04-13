@@ -15,14 +15,21 @@ import org.apache.sling.models.annotations.injectorspecific.Self
 
 import javax.inject.Inject
 
-@NilayaComponent(value = "subheader", name="subheader", group = NilayaConstant.GROUP_NAME
-)
+@NilayaComponent(value = "subheader", name="subheader", group = NilayaConstant.GROUP_NAME,
+
+        tabs = [
+                @Tab(title = "Top Links tab"),
+                @Tab(title = "Other Division tab"),
+                @Tab(title = "Language tab"),
+                @Tab(title = "Country Details tab"),
+                @Tab(title = "Social Icons tab"),
+        ])
 @AutoInstantiate
 class SubHeader extends AbstractComponent{
 
 
 
-    @DialogField(fieldLabel = "Sub Header Links")
+    @DialogField(fieldLabel = "Sub Header Links",tab=1)
     @MultiCompositeField(limit = 6)
     @DialogFieldSet
     @Self
@@ -32,12 +39,12 @@ class SubHeader extends AbstractComponent{
             child.resource.adaptTo(LinkItem)
         }
     }
-    @DialogField(fieldLabel = "Enter the Other Divison title")
+    @DialogField(fieldLabel = "Enter the Other Divison title",tab=2)
     @TextField
     @Inject
     String otherDivisonTitle
 
-    @DialogField(fieldLabel = "Enter Other Division Dropdown List")
+    @DialogField(fieldLabel = "Enter Other Division Dropdown List",tab=2)
     @MultiCompositeField
     @DialogFieldSet
     @Self
@@ -47,12 +54,12 @@ class SubHeader extends AbstractComponent{
        }
     }
 
-    @DialogField(fieldLabel = "Enter the Language Divison title")
+    @DialogField(fieldLabel = "Enter the Language Divison title",tab=3)
     @TextField
     @Inject
     String languageTitle
 
-    @DialogField(fieldLabel = "Enter the Language Dropdown List")
+    @DialogField(fieldLabel = "Enter the Language Dropdown List" ,tab=3)
     @MultiCompositeField
     @DialogFieldSet
     @Self
@@ -62,12 +69,12 @@ class SubHeader extends AbstractComponent{
         }
     }
 
-    @DialogField(fieldLabel = "Enter the country image",fieldDescription = "Enter the country iamge")
+    @DialogField(fieldLabel = "Enter the country image",fieldDescription = "Enter the country iamge", tab=4)
     @PathField
     @Inject
     String mainCountryImage
 
-    @DialogField(fieldLabel = "Enter the Country dropdown list")
+    @DialogField(fieldLabel = "Enter the Country dropdown list",tab=4)
     @MultiCompositeField
     @DialogFieldSet
     @Self
@@ -76,7 +83,7 @@ class SubHeader extends AbstractComponent{
             child.resource.adaptTo(CountryName)
         }
     }
-   @DialogField(fieldLabel = "Enter the Social Icons Details")
+   @DialogField(fieldLabel = "Enter the Social Icons Details" ,tab =5)
     @MultiCompositeField
    @DialogFieldSet
    @Self
