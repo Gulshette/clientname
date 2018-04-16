@@ -63,6 +63,7 @@ class SearchPage extends AbstractComponent{
        if (searchResult != null && searchResult.totalMatches > 0) {
            List<Hit> hits = searchResult.getHits();
            for (Hit hit : hits) {
+
                SearchPagePojo searchPagePojo=new SearchPagePojo()
                Resource resultResource=hit.getResource();
                searchPagePojo.setTitle(resultResource.parent.getName().toString())
@@ -73,5 +74,7 @@ class SearchPage extends AbstractComponent{
        }
         searchDataList
     }
+
+    def resourc=resourceResolver.findResources("")
 
 }
