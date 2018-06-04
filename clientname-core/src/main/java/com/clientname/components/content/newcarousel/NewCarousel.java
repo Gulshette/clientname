@@ -164,5 +164,5 @@ public class NewCarousel {
        return asset;
    }
 
-public String getImageWithPath(Page currentPage)
+
 }
